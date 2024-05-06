@@ -1,4 +1,4 @@
-Download here FW versions the latest FW version (1.2.5.7)
+Download here the latest FW version (1.2.5.9) - Jaycee_HapticFW_V1.2.5.9.bin file
 
 Plug the Razer Kraken Hypersense device into a USB port of your PC. 
 
