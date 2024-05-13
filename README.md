@@ -33,7 +33,13 @@
 - Copy the folder `RzInterhaptics` from `MechWarrior5\HapticEngine\V2.0.1` to `C:\Program Files (x86)\Interhaptics\` (contains Clipboard Haptic Engine and custom haptic effects).
 - Copy the contents of `MechWarrior5` to `C:\Program Files\Epic Games\MW5Mercs\MW5Mercs\Mods`. If the `Mods` folder does not exist, you must create it. A complete guide with pictures can be found inside the `MechWarrior5` folder: `Mod_setup.pdf`.
 
-### 2.2. Tech Demo <a name="tech-demo"></a>
-(Empty for now)
+### 2.2. Tech Demo <a name="tech-demo"></a> (Location: TechDemo)
+- Decompress the file TechDemo_V[x.x.x].zip in a folder of your choice.
+- Plug the custom firmware Kraken and the Kishii Ultra controller in USB ports. For the Kraken check that the haptics button situated on the bottom right cup is on and at the right intensity for you (it has an off sound and 3 possible intensities from low to high).
+- Launch the TechDemo app from inside the unarchived folder.
+- Before pressing play, you can set the intensity of Haptics, Audio, or add a haptic delay.
+- Press Play and enjoy the Razer Sensa Tech Demo.
+
+![TechDemoSettings](Documentation\Images\TechDemoSettings.png)
 
 [Back to Table of Contents](#table-of-contents)
