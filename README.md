@@ -24,14 +24,43 @@
 
 ### 1.2. Razer Sensa devices libraries <a name="razer-sensa-devices-libraries"></a> (Location: Drivers)
 
-- Launch `Install_RzInterHaptics_Inbox_1.0.4.1.exe` to install the Razer Sensa device libraries.
+- Launch `Install_RzInterHaptics_Inbox_1.x.x.x.exe` to install the Razer Sensa device libraries. [1.x.x.x - current version of drivers]
 
 ## 2. Apps <a name="apps"></a>
 
-### 2.1. Mech Warrior 5 Mod <a name="mech-warrior-5-mod"></a> (Location: MechWarrior5)
+### 2.1 Synesthesia App <a name="synesthesia-app"></a> (Location: Synesthesia)
 
-- Copy the folder `RzInterhaptics` from `MechWarrior5\HapticEngine\V2.0.1` to `C:\Program Files (x86)\Interhaptics\` (contains Clipboard Haptic Engine and custom haptic effects).
-- Copy the contents of `MechWarrior5` to `C:\Program Files\Epic Games\MW5Mercs\MW5Mercs\Mods`. If the `Mods` folder does not exist, you must create it. A complete guide with pictures can be found inside the `MechWarrior5` folder: `Mod_setup.pdf`.
+##### 2.1.1 Overview
+
+The Synesthesia project integrates the Chroma DLL enabled games with various Razer Sensa haptic devices to provide a synchronized gaming experience that involves dynamic haptic feedback based on in-game events (Chroma animations). The DevKit contains an example of the Hogwarts Legacy haptic integration.
+
+The Synesthesia apps can be found in the folders. To avoid compatibility issues, unzip the folder in the `C:\Program Files (x86)\Interhaptics\Synesthesia` folder. The executables can be found in the `Debug`, `Release`, and `Release_withConsole` folders.
+
+Inside the folder there are also the following executables:
+
+- `fake_client.exe`: simulates a Chroma Sensa enabled app and can send messages
+- `synesthesia_killer`: terminates the synesthesia killer if it’s active or in the background
+- `HapticFolders\`: some sample folders containing haptic configuration files and the haps haptic effects to be played
+- `Debug\`: folder containing debug version of Synesthesia
+- `Release\`: folder containing release candidate version of Synesthesia (no window/background process)
+- `ReleasewithConsole\`: folder containing console version of Synesthesia. This version is able to automatically create a Haptic Folder just by listening to a Chroma Sensa enabled app’s external messages.
+
+##### 2.1. Example: Hogwarts Legacy
+
+- Install the Steam version of Hogwarts Legacy.
+- Plug in the Razer Sensa haptic devices.
+- Once installed, go to the Properties page of the game and choose the Betas section. Enter the following key to unlock the beta versions of Hogwarts Legacy: `hUFQkb8PDN70c9`
+- Choose the development branch, wait for the files update to finish.
+
+![Screenshot](Documentation/Images/HogwartsSteam.png)
+![Screenshot](Documentation/Images/HogwartsBetas.png)
+
+- Launch the Synesthesia app (as Administrator). The Hogwarts Legacy is already inside the package and will intercept the Chroma Events sent by the game to play the corresponding haptics. The following messages can be seen on the Synesthesia with Console app.
+
+![Screenshot](Documentation/Images/SynesthesiaHogwarts.png)
+
+- Launch the Hogwarts Legacy game.
+- Stupefy!
 
 ### 2.2. Tech Demo <a name="tech-demo"></a> (Location: TechDemo)
 - Decompress the file TechDemo_V[x.x.x].zip in a folder of your choice.
@@ -39,6 +68,11 @@
 - Launch the TechDemo app from inside the unarchived folder.
 - Before pressing play, you can set the intensity of Haptics, Audio, or add a haptic delay.
 - Press Play and enjoy the Razer Sensa Tech Demo.
+
+### 2.3. Mech Warrior 5 Mod <a name="mech-warrior-5-mod"></a> (Location: MechWarrior5)
+
+- Copy the folder `RzInterhaptics` from `MechWarrior5\HapticEngine\V2.0.1` to `C:\Program Files (x86)\Interhaptics\` (contains Clipboard Haptic Engine and custom haptic effects).
+- Copy the contents of `MechWarrior5` to `C:\Program Files\Epic Games\MW5Mercs\MW5Mercs\Mods`. If the `Mods` folder does not exist, you must create it. A complete guide with pictures can be found inside the `MechWarrior5` folder: `Mod_setup.pdf`.
 
 ![TechDemoSettings](Documentation\Images\TechDemoSettings.png)
 
