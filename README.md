@@ -3,8 +3,9 @@
     1. [Kraken Firmware Update](#kraken-firmware-update)
     2. [Razer Sensa devices libraries](#razer-sensa-devices-libraries)
 2. [Apps](#apps)
-    1. [Mech Warrior 5 Mod](#mech-warrior-5-mod)
+    1. [Synesthesia App - Hogwarts Legacy](#synesthesia-app)
     2. [Tech Demo](#tech-demo) 
+    3. [Mech Warrior 5 Mod](#mech-warrior-5-mod)
 
 ---
 
