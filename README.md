@@ -35,12 +35,12 @@
 
 The Synesthesia project integrates the Chroma DLL enabled games with various Razer Sensa haptic devices to provide a synchronized gaming experience that involves dynamic haptic feedback based on in-game events (Chroma animations). The DevKit contains an example of the Hogwarts Legacy haptic integration.
 
-The Synesthesia apps can be found in the folders. To avoid compatibility issues, unzip the folder in the `C:\Program Files (x86)\Interhaptics\Synesthesia` folder. The executables can be found in the `Debug`, `Release`, and `Release_withConsole` folders.
+The Synesthesia apps can be found in the folders. To avoid compatibility issues, unzip the folder in the `C:\Program Files (x86)\Interhaptics\Synesthesia` folder. The executables can be found in the `Release`, and `ReleaseConsole` folders.
 
 Inside the folder there are also the following executables:
 
 - `fake_client.exe`: simulates a Chroma Sensa enabled app and can send messages
-- `synesthesia_killer`: terminates the synesthesia killer if it’s active or in the background
+- `synesthesiaStop`: terminates the synesthesia killer if it’s active or in the background
 - `HapticFolders\`: some sample folders containing haptic configuration files and the haps haptic effects to be played
 - `Debug\`: folder containing debug version of Synesthesia
 - `Release\`: folder containing release candidate version of Synesthesia (no window/background process)
@@ -50,11 +50,6 @@ Inside the folder there are also the following executables:
 
 - Install the Steam version of Hogwarts Legacy.
 - Plug in the Razer Sensa haptic devices.
-- Once installed, go to the Properties page of the game and choose the Betas section. Enter the following key to unlock the beta versions of Hogwarts Legacy: `hUFQkb8PDN70c9`
-- Choose the development branch, wait for the files update to finish.
-
-![Screenshot](Documentation/Images/HogwartsSteam.png)
-![Screenshot](Documentation/Images/HogwartsBetas.png)
 
 - Launch the Synesthesia app (as Administrator). The Hogwarts Legacy is already inside the package and will intercept the Chroma Events sent by the game to play the corresponding haptics. The following messages can be seen on the Synesthesia with Console app.
 
