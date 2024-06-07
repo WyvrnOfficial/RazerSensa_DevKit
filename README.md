@@ -57,7 +57,7 @@ The Synesthesia apps can be found in the folders. To avoid compatibility issues,
 
 Inside the folder there are also the following executables:
 
-- `fake_client.exe`: simulates a Chroma Sensa enabled app and can send messages
+- `ChromaFakeClient.exe`: simulates a Chroma Sensa enabled app and can send messages
 - `synesthesiaStop`: terminates the synesthesia killer if it’s active or in the background
 - `HapticFolders\`: some sample folders containing haptic configuration files and the haps haptic effects to be played
 - `Release\`: folder containing release candidate version of Synesthesia (no window/background process)
