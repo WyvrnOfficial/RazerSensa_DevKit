@@ -2,6 +2,7 @@
 1. [Drivers Update](#drivers-update)
     1. [Kraken Firmware Update](#kraken-firmware-update)
     2. [Razer Sensa devices libraries](#razer-sensa-devices-libraries)
+    3. [Esther Device Setup](#esther-device-setup)
 2. [Apps](#apps)
     1. [Synesthesia App - Hogwarts Legacy](#synesthesia-app)
     2. [Tech Demo](#tech-demo) 
@@ -27,6 +28,23 @@
 
 - Launch `Install_RzInterHaptics_Inbox_1.x.x.x.exe` to install the Razer Sensa device libraries. [1.x.x.x - current version of drivers]
 
+### 1.3. Esther Device Setup <a name="esther-device-setup"></a>
+
+#### How to setup Esther
+
+- Put the electrical plug into the socket and attach the cable to Esther.
+- Turn on Esther by pushing the power button.
+- Plug the USB dongle into your PC. (Avoid USB hubs)
+- Enjoy your device.
+
+![Esther](Documentation\Images\Esther_buttons.png)
+
+#### Button functionalities
+
+- **Power:** Turn ON/OFF the device.
+- **Haptic Intensity:** Select general haptic intensity of the device. From level 1 (low) to level 6 (high).
+- **Source:** Select between USB dongle (default) and Bluetooth (not supported at the current stage).
+
 ## 2. Apps <a name="apps"></a>
 
 ### 2.1 Synesthesia App <a name="synesthesia-app"></a> (Location: Synesthesia)
@@ -42,7 +60,6 @@ Inside the folder there are also the following executables:
 - `fake_client.exe`: simulates a Chroma Sensa enabled app and can send messages
 - `synesthesiaStop`: terminates the synesthesia killer if it’s active or in the background
 - `HapticFolders\`: some sample folders containing haptic configuration files and the haps haptic effects to be played
-- `Debug\`: folder containing debug version of Synesthesia
 - `Release\`: folder containing release candidate version of Synesthesia (no window/background process)
 - `ReleasewithConsole\`: folder containing console version of Synesthesia. This version is able to automatically create a Haptic Folder just by listening to a Chroma Sensa enabled app’s external messages.
 
