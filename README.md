@@ -10,6 +10,18 @@
 
 ---
 
+The Razer Sensa DevKit consists of the following hardware devices and software suite:
+- Hardware:
+  -- Razer Kishi Ultra game controller (retail unit)
+  -- Razer Kraken headphones (retail unit + firmware/driver update)
+  -- Razer Esther (demo unit)
+- Software:
+  -- Drivers/Firmware: Razer Sensa devices drivers + Razer Krake custom firmware
+  -- Synesthesia modding tool with Hogwarts Legacy Chroma Sensa implementation
+  -- Tech Demo
+  -- Mech Warrior 5 Mod 
+  
+
 ## 1. Drivers Update <a name="drivers-update"></a>
 
 ### 1.1. Kraken Firmware Update <a name="kraken-firmware-update"></a> (Location: Drivers\Kraken)
@@ -21,8 +33,8 @@
 - Click on the `Update STM FW` button. Wait until the loading bar indicates 100%.
 - You can close the software, your device firmware is now updated.
 
-![KrakenFW1](Documentation\Images\KrakenFW1.png)
-![KrakenFW2](Documentation\Images\KrakenFW2.png)
+![KrakenFW1](Documentation/Images/KrakenFW1.png)
+![KrakenFW2](Documentation/Images/KrakenFW2.png)
 
 ### 1.2. Razer Sensa devices libraries <a name="razer-sensa-devices-libraries"></a> (Location: Drivers)
 
@@ -37,7 +49,7 @@
 - Plug the USB dongle into your PC. (Avoid USB hubs)
 - Enjoy your device.
 
-![Esther](Documentation\Images\Esther_buttons.png)
+![Esther](Documentation/Images/Esther_buttons.png)
 
 #### Button functionalities
 
@@ -58,17 +70,17 @@ The Synesthesia apps can be found in the folders. To avoid compatibility issues,
 Inside the folder there are also the following executables:
 
 - `ChromaFakeClient.exe`: simulates a Chroma Sensa enabled app and can send messages
-- `synesthesiaStop`: terminates the synesthesia killer if it’s active or in the background
-- `HapticFolders\`: some sample folders containing haptic configuration files and the haps haptic effects to be played
+- `SynesthesiaStop`: terminates the synesthesia killer if it’s active or in the background
+- `HapticFolders\`: some sample folders containing haptic configuration files and the haps haptic effects to be played (Hogwarts Legacy included here)
 - `Release\`: folder containing release candidate version of Synesthesia (no window/background process)
 - `ReleasewithConsole\`: folder containing console version of Synesthesia. This version is able to automatically create a Haptic Folder just by listening to a Chroma Sensa enabled app’s external messages.
 
 ##### 2.1. Example: Hogwarts Legacy
 
 - Install the Steam version of Hogwarts Legacy.
+- Navigate to the game folder. Navigate to the Chroma SDK Plugin Folder for Steam (C:\Program Files (x86)\Steam\steamapps\common\Hogwarts Legacy\Phoenix\Plugins\ChromaSDKPlugin\Binaries\Win64). Copy and paste Synesthesia/HogwartsChomaDLL/CChromaEditorLibrary64.dll in the Chroma SDK Plugin folder. Accept to substitute the file.
 - Plug in the Razer Sensa haptic devices.
-
-- Launch the Synesthesia app (as Administrator). The Hogwarts Legacy is already inside the package and will intercept the Chroma Events sent by the game to play the corresponding haptics. The following messages can be seen on the Synesthesia with Console app.
+- Launch the Synesthesia app from the Synesthesia/ReleaseConsole folder (as Administrator). The Hogwarts Legacy is already inside the package and will intercept the Chroma Events sent by the game to play the corresponding haptics. The following messages can be seen on the Synesthesia with Console app.
 
 ![Screenshot](Documentation/Images/SynesthesiaHogwarts.png)
 
@@ -77,7 +89,7 @@ Inside the folder there are also the following executables:
 
 ### 2.2. Tech Demo <a name="tech-demo"></a> (Location: TechDemo)
 - Decompress the file TechDemo_V[x.x.x].zip in a folder of your choice.
-- Plug the custom firmware Kraken and the Kishii Ultra controller in USB ports. For the Kraken check that the haptics button situated on the bottom right cup is on and at the right intensity for you (it has an off sound and 3 possible intensities from low to high).
+- Plug the custom firmware Kraken and the Kishi Ultra game controller in USB ports. For the Kraken check that the haptics button situated on the bottom right cup is on and at the right intensity for you (it has an off sound and 3 possible intensities from low to high).
 - Launch the TechDemo app from inside the unarchived folder.
 - Before pressing play, you can set the intensity of Haptics, Audio, or add a haptic delay.
 - Press Play and enjoy the Razer Sensa Tech Demo.
