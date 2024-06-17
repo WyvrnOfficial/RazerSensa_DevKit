@@ -56,6 +56,7 @@ The Razer Sensa DevKit consists of the following hardware devices and software s
 - **Power:** Turn ON/OFF the device.
 - **Haptic Intensity:** Select general haptic intensity of the device. From level 1 (low) to level 6 (high).
 - **Source:** Select between USB dongle (default) and Bluetooth (not supported at the current stage).
+- **Important Note:** Connection light should be solid green. If the light is blinking green, change the USB dongle location and restart the device. If the light is blue (blinking or solid) that means that the device is in BLuetooth mode and it should be changed by pressing the Source button to the USB 2.4 dongle connection. 
 
 ## 2. Apps <a name="apps"></a>
 
