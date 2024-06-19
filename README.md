@@ -14,7 +14,7 @@
 The Razer Sensa DevKit consists of the following hardware devices and software suite:
 - Hardware:
   - Razer Kishi Ultra game controller (retail unit)
-  - Razer Kraken headphones (retail unit + firmware/driver update)
+  - Razer Kraken headphones (retail unit; needs a firmware update)
   - Razer Esther (demo unit)
 - Software:
   - Drivers/Firmware:
@@ -86,9 +86,10 @@ The Synesthesia apps can be found in the folders `Release`, and `ReleaseConsole`
 ##### 2.1. Example: Hogwarts Legacy
 
 - Install the Steam version of Hogwarts Legacy.
-- Navigate to the game folder. Navigate to the Chroma SDK Plugin Folder for Steam (C:\Program Files (x86)\Steam\steamapps\common\Hogwarts Legacy\Phoenix\Plugins\ChromaSDKPlugin\Binaries\Win64). Copy and paste Synesthesia/HogwartsChomaDLL/CChromaEditorLibrary64.dll in the Chroma SDK Plugin folder. Accept to substitute the file.
 - Plug in the Razer Sensa haptic devices.
-- Launch the Synesthesia app from the Synesthesia/ReleaseConsole folder (as Administrator). The Hogwarts Legacy is already inside the package and will intercept the Chroma Events sent by the game to play the corresponding haptics. The following messages can be seen on the Synesthesia with Console app.
+- Open Synapse and uncheck `ENABLE THIS APP` from the `CONNECT'->'APPS' section.
+![Screenshot](Documentation/Images/Chroma_Connect_Apps.png)
+- Launch the Synesthesia app from the Synesthesia/ReleaseConsole folder (as Administrator). The Hogwarts Legacy haptic files are already inside the package and will intercept the Chroma Events sent by the game to play the corresponding haptics. The following messages can be seen on the Synesthesia with Console app.
 
 ![Screenshot](Documentation/Images/SynesthesiaHogwarts.png)
 
