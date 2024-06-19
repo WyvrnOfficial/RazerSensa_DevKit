@@ -15,13 +15,13 @@ The Razer Sensa DevKit consists of the following hardware devices and software s
 - Hardware:
   - Razer Kishi Ultra game controller (retail unit)
   - Razer Kraken headphones (retail unit; needs a firmware update)
-  - Razer Esther (demo unit)
-- Software:
-  - Drivers/Firmware:
+  - Razer Esther (pre-production unit)
+- Drivers/Firmware:
 	- Razer Synapse 3
-	- Razer Sensa devices drivers
+	- Razer Sensa device drivers
 	- Razer Kraken custom firmware
-  - Synesthesia modding tool with Hogwarts Legacy Chroma Sensa implementation
+ - Demos
+  - Hogwarts Legacy PC Version
   - Tech Demo
   - Mech Warrior 5 Mod 
   
@@ -30,7 +30,7 @@ The Razer Sensa DevKit consists of the following hardware devices and software s
 
 ### 1.1. Razer Synapse 3 Setup <a name="razer-synapse"></a> (Location: Drivers\Kraken)
 
-- Launch the Razer Synapse 3 setup from the Synapese executable (Location: Drivers\Synapse). Latest version can also be downloaded from this link: https://www.razer.com/synapse-3
+- Launch the Razer Synapse 3 setup from the Synapse executable (Location: Drivers\Synapse). The latest version can also be downloaded from this link: https://www.razer.com/synapse-3
 - Check the Chroma options during setup.
 - After the setup is finished sign in with your Razer Id or create one to get started. The Razer haptic devices will be automatically recognized by the Razer Synapse app.
 - If a reboot is required, restart your PC.
