@@ -86,11 +86,18 @@ The Synesthesia apps can be found in the folder `ReleaseConsole`. The engine wil
 - Install the PC version of Hogwarts Legacy.
 - Plug in the Razer Sensa haptic devices.
 - Open Synapse and uncheck `ENABLE THIS APP` from the `CONNECT'->'APPS' section. 
-![Screenshot](Documentation/Images/Chroma_Connect_Apps.png)
+![Hogwarts1](Documentation/Images/Chroma_Connect_Apps.png)
 - Launch the Synesthesia app from the Synesthesia/ReleaseConsole folder (as Administrator). 
 - Launch the Hogwarts Legacy game.
-![Screenshot](Documentation/Images/SynesthesiaHogwarts.png)
-- Stupefy! *Haptics is implemented on all magic. If you have not played Hogwarts, install this save file through these guides (Steam) and (Epic Games Store)
+![Hogwarts2](Documentation/Images/SynesthesiaHogwarts.png)
+- Stupefy! 
+*Haptics is implemented on all magic spells. If you have not played Hogwarts Legacy, install this save file through this quick guide:
+- Boot up the game from your Steam/Epic account. Once it shows the Hogwarts letter, exit out of the game.
+- Disable Steam Cloud for the save games of Hogwarts Legacy. Right-click on Hogwarts Legacy (see image below).
+![Hogwarts3](Documentation/Images/Hogwarts_Legacy_SteamCloud.png)
+- In your file explorer go to `C:\Users\<Your USERNAME>\AppData\Local\Hogwarts Legacy\Saved\SaveGames`
+- Make duplicates of all the folders at that location (should be labeled with numbers). 
+- Delete the content of the original folder. Unpack HogwartsLegacySaveGame.zip in the now empty folder.
 
 ### 2.2. Tech Demo <a name="tech-demo"></a> (Location: TechDemo)
 - Close Synesthesia Console
