@@ -20,7 +20,7 @@ The Razer Sensa DevKit consists of the following hardware devices and software s
 	- Razer Synapse 3
 	- Razer Sensa device drivers
 	- Razer Kraken custom firmware
- - Demos
+- Demos
   - Hogwarts Legacy PC Version
   - Tech Demo
   - Mech Warrior 5 Mod 
@@ -32,7 +32,7 @@ The Razer Sensa DevKit consists of the following hardware devices and software s
 
 - Launch the Razer Synapse 3 setup from the Synapse executable (Location: Drivers\Synapse). The latest version can also be downloaded from this link: https://www.razer.com/synapse-3
 - Check the Chroma options during setup.
-- After the setup is finished sign in with your Razer Id or create one to get started. The Razer haptic devices will be automatically recognized by the Razer Synapse app.
+- After the setup is finished sign in with your Razer Id or create one to get started (or log in as a Guest). 
 - If a reboot is required, restart your PC.
 
 ![KrakenFW1](Documentation/Images/Razer_Synapse.png)
@@ -59,7 +59,8 @@ The Razer Sensa DevKit consists of the following hardware devices and software s
 
 - Put the electrical plug into the socket and attach the cable to Esther.
 - Turn on Esther by pushing the power button.
-- Plug the USB dongle into your PC. (Avoid USB hubs)
+- Plug the USB dongle into your PC.
+- LED indicator must be solid green to be connected
 
 ![Esther](Documentation/Images/Esther_buttons.png)
 
@@ -67,8 +68,8 @@ The Razer Sensa DevKit consists of the following hardware devices and software s
 
 - **Power:** Turn ON/OFF the device.
 - **Haptic Intensity:** Select general haptic intensity of the device. From level 1 (low) to level 6 (high).
-- **Source:** Select between USB dongle (default) and Bluetooth (not supported at the current stage).
-- **Important Note:** Connection light should be solid green. If the light is blinking green, change the USB dongle location and restart the device. If the light is blue (blinking or solid) that means that the device is in BLuetooth mode and it should be changed by pressing the Source button to the USB 2.4 dongle connection. 
+- **Source:** Select between USB dongle (Green) and Bluetooth (Blue, not supported at the current stage).
+- **Important Note:** If the light is blinking green, plug the USB dongle in another port. If the light is blue (blinking or solid) that means that the device is in BLuetooth mode and it should be changed by pressing the Source button to the USB 2.4 dongle connection. 
 
 ## 2. Apps <a name="apps"></a>
 
@@ -76,32 +77,25 @@ The Razer Sensa DevKit consists of the following hardware devices and software s
 
 ##### 2.1.1 Overview
 
-The Synesthesia modding tool integrates the Chroma DLL enabled games with various Razer Sensa haptic devices to provide a synchronized gaming experience that involves dynamic haptic feedback based on in-game events (Chroma animations). The DevKit contains an example of the Hogwarts Legacy haptic integration. A complete documentation on Synesthesia can be found at this link: https://www.interhaptics.com/doc/chroma-sensa/#synesthesia 
+The Synesthesia engine integrates the Chroma DLL enabled games with various Razer Sensa haptic devices to provide a synchronized gaming experience that involves dynamic haptic feedback based on in-game events. The DevKit contains an example of the Hogwarts Legacy haptic integration. A complete documentation on Synesthesia can be found at this link: https://www.interhaptics.com/doc/chroma-sensa/#synesthesia 
 
-The Synesthesia apps can be found in the folders `Release`, and `ReleaseConsole`.
+The Synesthesia apps can be found in the folder `ReleaseConsole`. The engine will be shipped in Synapse when Esther and Kraken V4 will launch.  
 
-- `Release\`: folder containing release candidate version of Synesthesia (no window/background process)
-- `ReleasewithConsole\`: folder containing console version of Synesthesia. This version is able to automatically create a Haptic Folder just by listening to a Chroma Sensa enabled app’s external messages.
+##### 2.1. Test Hatics with Hogwarts Legacy PC Version
 
-##### 2.1. Example: Hogwarts Legacy
-
-- Install the Steam version of Hogwarts Legacy.
+- Install the PC version of Hogwarts Legacy.
 - Plug in the Razer Sensa haptic devices.
-- Open Synapse and uncheck `ENABLE THIS APP` from the `CONNECT'->'APPS' section.
+- Open Synapse and uncheck `ENABLE THIS APP` from the `CONNECT'->'APPS' section. 
 ![Screenshot](Documentation/Images/Chroma_Connect_Apps.png)
-- Launch the Synesthesia app from the Synesthesia/ReleaseConsole folder (as Administrator). The Hogwarts Legacy haptic files are already inside the package and will intercept the Chroma Events sent by the game to play the corresponding haptics. The following messages can be seen on the Synesthesia with Console app.
-
-![Screenshot](Documentation/Images/SynesthesiaHogwarts.png)
-
+- Launch the Synesthesia app from the Synesthesia/ReleaseConsole folder (as Administrator). 
 - Launch the Hogwarts Legacy game.
-- Stupefy!
+![Screenshot](Documentation/Images/SynesthesiaHogwarts.png)
+- Stupefy! *Haptics is implemented on all magic. If you have not played Hogwarts, install this save file through these guides (Steam) and (Epic Games Store)
 
 ### 2.2. Tech Demo <a name="tech-demo"></a> (Location: TechDemo)
-- Stop Synesthesia if it is already running. (If Synesthesia.exe was opened before, use the SynesthesiaStop.exe. If running SynesthesiaConsole, close it.)
+- Close Synesthesia Console
 - Decompress the file TechDemo_V[x.x.x].zip in a folder of your choice.
-- Plug the custom firmware Kraken and the Kishi Ultra game controller in USB ports. For the Kraken check that the haptics button situated on the bottom right cup is on and at the right intensity for you (it has an off sound and 3 possible intensities from low to high).
 - Launch the TechDemo app from inside the unarchived folder.
-- Before pressing play, you can set the intensity of Haptics, Audio, or add a haptic delay.
 - Press Play and enjoy the Razer Sensa Tech Demo.
 
 ![TechDemoSettings](Documentation/Images/TechDemoSettings.png)
