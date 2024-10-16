@@ -14,8 +14,8 @@
 The Razer Sensa DevKit consists of the following hardware devices and software suite:
 - Hardware:
   - Razer Kishi Ultra game controller (retail unit)
-  - Razer Kraken headphones (retail unit; needs a firmware update)
-  - Razer Esther (pre-production unit)
+  - Razer Kraken v3 headphones (retail unit; needs a firmware update)
+  - Razer Esther (pre-production unit) / Freyja haptic cushion (production unit)
 - Drivers/Firmware:
 	- Razer Synapse 3
 	- Razer Sensa device drivers
