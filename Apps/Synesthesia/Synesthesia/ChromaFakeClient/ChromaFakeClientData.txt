@@ -1,7 +1,50 @@
-load;TestApp
-active;TestApp
-play;Ambiant_ON
-play;Ambiant_OFF
-play;Shock_MERGE
+load;Frostpunk 2
+active;Frostpunk 2
+play;../../../Frostpunk2/Content/LightingSyncEffects/RazerChroma/Menu_ChromaLink.chroma
+play;../../../Frostpunk2/Content/LightingSyncEffects/RazerChroma/Cutscene_ChromaLink.chroma
+play;../../../Frostpunk2/Content/LightingSyncEffects/RazerChroma/Construction_ChromaLink.chroma
+play;../../../Frostpunk2/Content/LightingSyncEffects/RazerChroma/Chorister_ChromaLink.chroma
+play;../../../Frostpunk2/Content/LightingSyncEffects/RazerChroma/Gameplay_ChromaLink.chroma
+play;../../../Frostpunk2/Content/LightingSyncEffects/RazerChroma/IdeaTree_ChromaLink.chroma
+play;../../../Frostpunk2/Content/LightingSyncEffects/RazerChroma/Lens_ChromaLink.chroma
+play;../../../Frostpunk2/Content/LightingSyncEffects/RazerChroma/Parliament_ChromaLink.chroma
+play;../../../Frostpunk2/Content/LightingSyncEffects/RazerChroma/PromiseBrokenDialog_ChromaLink.chroma
+play;../../../Frostpunk2/Content/LightingSyncEffects/RazerChroma/PromiseFulfilledDialog_ChromaLink.chroma
+play;../../../Frostpunk2/Content/LightingSyncEffects/RazerChroma/FierceGhost_ChromaLink.chroma
+play;../../../Frostpunk2/Content/LightingSyncEffects/RazerChroma/TemperatureRise_ChromaLink.chroma
+play;../../../Frostpunk2/Content/LightingSyncEffects/RazerChroma/TemperatureDrop_ChromaLink.chroma
+unload;Frostpunk 2
+load;Silent Hill 2
+active;Silent Hill 2
+play;Heal_MERGE
+play;HealDrink_MERGE
+play;HealSyringe_MERGE
 play;StopAll
-
+unload;Silent Hill 2
+load;Testing_All_Right
+active;Testing_All_Right
+play;15Hz
+play;20Hz
+play;25Hz
+play;30Hz
+play;30to65_5Hzstep1s
+play;35Hz
+play;50Hz
+play;60Hz
+play;100Hz
+play;AmpLinearity50Hz
+play;AmpLinearity60Hz
+play;AmpLinearity65Hz
+play;ComplexSignlaRendering
+play;FreqSweep30_100
+play;FreqSweep15to300
+play;FreqSweep20to300
+play;FreqSweep25to120
+play;FreqSweep25to200
+play;FreqSweep30to300
+play;TransientsDownUP_LongInterval
+play;TransientsDownUP_LongInterval
+play;TransientsInRowDecreasingInterval
+play;VibMix50_100
+play;VibMix100_50
+unload;Testing_All_Right
