@@ -17,7 +17,7 @@ The Razer Sensa DevKit consists of the following hardware devices and software s
   - Razer Kraken v3 headphones (retail unit; needs a firmware update)
   - Razer Esther (pre-production unit) / Freyja haptic cushion (production unit)
 - Drivers/Firmware:
-	- Razer Synapse 3
+	- Razer Synapse 4
 	- Razer Sensa device drivers
 	- Razer Kraken custom firmware
 - Demos
@@ -28,9 +28,9 @@ The Razer Sensa DevKit consists of the following hardware devices and software s
 
 ## 1. Drivers Update <a name="drivers-update"></a>
 
-### 1.1. Razer Synapse 3 Setup <a name="razer-synapse"></a> (Location: Drivers\Kraken)
+### 1.1. Razer Synapse 4 Setup <a name="razer-synapse"></a> (Location: Drivers\Kraken)
 
-- Launch the Razer Synapse 3 setup from the Synapse executable (Location: Drivers\Synapse). The latest version can also be downloaded from this link: https://www.razer.com/synapse-3
+- Launch the Razer Synapse 4 setup from the Synapse executable (Location: Drivers\Synapse\Synapse 4). The latest version can also be downloaded from this link: https://www.razer.com/synapse-4
 - Check the Chroma options during setup.
 - After the setup is finished sign in with your Razer Id or create one to get started (or log in as a Guest). 
 - If a reboot is required, restart your PC.
@@ -52,6 +52,13 @@ The Razer Sensa DevKit consists of the following hardware devices and software s
 ### 1.3. Razer Sensa devices libraries <a name="razer-sensa-devices-libraries"></a> (Location: Drivers)
 
 - Launch `Install_RzInterHaptics_Inbox_1.x.x.x.exe` to install the Razer Sensa device libraries. [1.x.x.x - current version of drivers]
+- Close Synapse 4 (just to be sure that the RzInterhaptics.dll is not loaded)
+- Rename RzInterhaptics.dll to something like RzInterhaptics.dll.bak inside the C:\Program Files (x86)\Interhaptics\RazerAppEngine\x64 folder
+- Copy the dll files from C:\Program Files (x86)\Interhaptics\RzInterHaptics\x64 to C:\Program Files (x86)\Interhaptics\RazerAppEngine\x64
+- Open Razer Synapse 4. Go to the Razer Freyja Tab and press the Launch Sensa HD Haptics Button. Check that Haptic Source is Sensa HD Games. If it is Audio-to-Haptics switch it to Sensa HD Games.
+![Freyja Step 1](Documentation/Images/Razer-synapse-freyja-tab.png)
+![Freyja Step 2](Documentation/Images/Razer-chroma-freyja-tab.png)
+
 
 ### 1.4. Esther Device Setup <a name="esther-device-setup"></a>
 
@@ -79,13 +86,18 @@ The Razer Sensa DevKit consists of the following hardware devices and software s
 
 The Synesthesia engine integrates the Chroma DLL enabled games with various Razer Sensa haptic devices to provide a synchronized gaming experience that involves dynamic haptic feedback based on in-game events. The DevKit contains an example of the Hogwarts Legacy haptic integration. A complete documentation on Synesthesia can be found at this link: https://www.interhaptics.com/doc/chroma-sensa/#synesthesia 
 
-The Synesthesia apps can be found in the folder `ReleaseConsole`. The engine will be shipped in Synapse when Esther and Kraken V4 will launch.  
+The Synesthesia apps can be found in the folder `ReleaseConsole`. The engine is shipped in Synapse 4 when Esther and Kraken V4 will launch.  
 
-##### 2.1. Test Hatics with Hogwarts Legacy PC Version
+To use the console version instead of the production version of Synesthesia (included in Synapse 4) follow the steps below.
+
+- Open Razer Synapse 4. Go to the Freyja Tab and press the Launch Sensa HD Haptics Button. Check that Haptic Source is Sensa HD Games. If it is Audio-to-Haptics switch it to Sensa HD Games.
+- Open Task Manager. Look for the Synesthesia process and close it.
+= Open the Synesthesia app downloaded from https://github.com/Interhaptics/RazerSensa_DevKit and test the setup with ChromaFakeClient and the following commands load; active; play wich will appar when starting the app. 
+
+##### 2.1. Test Haptics with Hogwarts Legacy PC Version
 
 - Install the PC version of Hogwarts Legacy.
 - Plug in the Razer Sensa haptic devices.
-- Open Synapse and uncheck `ENABLE THIS APP` from the `CONNECT'->'APPS' section. 
 ![Hogwarts1](Documentation/Images/Chroma_Connect_Apps.png)
 - Launch the Synesthesia app from the Synesthesia/ReleaseConsole folder (as Administrator). 
 - Launch the Hogwarts Legacy game.
