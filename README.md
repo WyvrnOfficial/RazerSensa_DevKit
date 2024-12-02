@@ -1,6 +1,6 @@
 ## Table of Contents
 1. [Drivers Update](#drivers-update)
-    1. [Razer Synapse 3 Setup](#razer-synapse)
+    1. [Razer Synapse 4 Setup](#razer-synapse)
     2. [Razer Kraken Firmware Update](#kraken-firmware-update)
     3. [Razer Sensa Devices Libraries](#razer-sensa-devices-libraries)
     4. [Esther Device Setup](#esther-device-setup)
@@ -37,7 +37,7 @@ The Razer Sensa DevKit consists of the following hardware devices and software s
 
 ![KrakenFW1](Documentation/Images/Razer_Synapse.png)
 
-### 1.2. Kraken Firmware Update <a name="kraken-firmware-update"></a> (Location: Drivers\Kraken)
+### 1.2. Kraken v3 Hypersense Firmware Update <a name="kraken-firmware-update"></a> (Location: Drivers\Kraken)
 
 - Plug the Razer Kraken Hypersense device into a USB port of your PC.
 - Open the folder `Drivers\Kristal - FactoryFWUKrystalT2STM32_v1.02.03_20211111`. Launch the executable `FactoryFWUKrystalT2STM32.exe`.
@@ -52,13 +52,14 @@ The Razer Sensa DevKit consists of the following hardware devices and software s
 ### 1.3. Razer Sensa devices libraries <a name="razer-sensa-devices-libraries"></a> (Location: Drivers)
 
 - Launch `Install_RzInterHaptics_Inbox_1.x.x.x.exe` to install the Razer Sensa device libraries. [1.x.x.x - current version of drivers]
+
+!Only for Kraken v3 Hypersense . These instructions do not apply if you have Kraken v4 Pro.
 - Close Synapse 4 (just to be sure that the RzInterhaptics.dll is not loaded)
-- Rename RzInterhaptics.dll to something like RzInterhaptics.dll.bak inside the C:\Program Files (x86)\Interhaptics\RazerAppEngine\x64 folder
+- Rename RzInterhaptics.dll to RzInterhaptics.dll.bak inside the C:\Program Files (x86)\Interhaptics\RazerAppEngine\x64 folder
 - Copy the dll files from C:\Program Files (x86)\Interhaptics\RzInterHaptics\x64 to C:\Program Files (x86)\Interhaptics\RazerAppEngine\x64
 - Open Razer Synapse 4. Go to the Razer Freyja Tab and press the Launch Sensa HD Haptics Button. Check that Haptic Source is Sensa HD Games. If it is Audio-to-Haptics switch it to Sensa HD Games.
 ![Freyja Step 1](Documentation/Images/Razer-synapse-freyja-tab.png)
 ![Freyja Step 2](Documentation/Images/Razer-chroma-freyja-tab.png)
-
 
 ### 1.4. Esther Device Setup <a name="esther-device-setup"></a>
 
