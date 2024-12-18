@@ -27,17 +27,7 @@
             {
                 "m_gain": 1.0,
                 "m_mute": 0,
-                "m_notes": [
-                    {
-                        "m_gain": 0.32850367135847824,
-                        "m_hapticEffect": {
-                            "m_type": 0
-                        },
-                        "m_length": 0.022,
-                        "m_priority": 0,
-                        "m_startingPoint": 0.0
-                    }
-                ]
+                "m_notes": []
             },
             {
                 "m_gain": 1.0,
@@ -56,8 +46,8 @@
                                         "m_value": 0.0
                                     },
                                     {
-                                        "m_time": 0.10109146919007626,
-                                        "m_value": 0.0
+                                        "m_time": 0.09371500109899403,
+                                        "m_value": 0.7705632282491407
                                     },
                                     {
                                         "m_inSlope": 0.0,

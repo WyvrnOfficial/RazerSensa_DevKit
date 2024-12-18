@@ -1,10 +1,9 @@
-Antoine Mariton - 24/09/2024 - v1.1.0.14
+Antoine Mariton - 03/10/2024 - v1.1.0.15
 
 Features +++++++++++++++++++++++++++++++++++++++++++++++
 
-- 
+- Try to find a known game if receive an unknown play command
 
 BugFix +++++++++++++++++++++++++++++++++++++++++++++++++
 
-- Haptic framerate updated to avoid transients rendering problems (from 40ms to 60ms)
 

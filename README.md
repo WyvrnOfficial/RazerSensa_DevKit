@@ -53,7 +53,7 @@ The Razer Sensa DevKit consists of the following hardware devices and software s
 
 - Launch `Install_RzInterHaptics_Inbox_1.x.x.x.exe` to install the Razer Sensa device libraries. [1.x.x.x - current version of drivers]
 
-!Only for Kraken v3 Hypersense . These instructions do not apply if you have Kraken v4 Pro.
+!Only for Kraken v3 Hypersense. These instructions do not apply if you have Kraken v4 Pro.
 - Close Synapse 4 (just to be sure that the RzInterhaptics.dll is not loaded)
 - Rename RzInterhaptics.dll to RzInterhaptics.dll.bak inside the C:\Program Files (x86)\Interhaptics\RazerAppEngine\x64 folder
 - Copy the dll files from C:\Program Files (x86)\Interhaptics\RzInterHaptics\x64 to C:\Program Files (x86)\Interhaptics\RazerAppEngine\x64
