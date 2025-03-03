@@ -7,7 +7,6 @@
 2. [Apps](#apps)
     1. [Synesthesia App - Hogwarts Legacy](#synesthesia-app)
     2. [Tech Demo](#tech-demo) 
-    3. [Mech Warrior 5 Mod](#mech-warrior-5-mod)
 
 ---
 
@@ -91,23 +90,26 @@ The Synesthesia apps can be found in the folder `ReleaseConsole`. The engine is 
 
 To use the console version instead of the production version of Synesthesia (included in Synapse 4) follow the steps below.
 
-- Open Razer Synapse 4. Go to the Freyja or Kraken v4 Pro Tab and press the Launch Sensa HD Haptics Button. Check that Haptic Source is Sensa HD Games. If it is Audio-to-Haptics switch it to Sensa HD Games.
-![Audio-to-Haptics to Chroma Sensa switch](Documentation/Images/Audio-to-Haptics_to_Chroma_Sensa_Switch.jpg)
+- Open Razer Synapse 4. Go to the Razer Freyja/Kraken V4 Pro tab and press the Launch Sensa HD Haptics Button. Check that Haptic Source is Sensa HD Games. If it is Audio-to-Haptics switch it to Sensa HD Games.
+![Freyja Step 1](Documentation/Images/Razer-synapse-freyja-tab.png)
+![Freyja Step 2](Documentation/Images/Razer-chroma-freyja-tab.png)
 - Open Task Manager. Look for the Haptic Service background process and close it.
 ![Haptic Service in Task Manager](Documentation/Images/Haptic_Service_End_Process.jpg)
 - Open the Synesthesia app downloaded from https://github.com/Interhaptics/RazerSensa_DevKit and test the setup with ChromaFakeClient and the following commands load; active; play which will appear when starting the app. 
 
-##### 2.1. Test Haptics with Hogwarts Legacy PC Version
+##### 2.1.2 Test Haptics with Chroma Sensa integrated games (Case: Hogwarts Legacy)
 
-- Install the PC version of Hogwarts Legacy.
+The following instructions are for the Hogwarts Legacy game, but can be applied to any game from the following link - https://www.razer.com/chroma-workshop#--sensa-games (ex: Final Fantasy XVI, Silent Hill 2, Sniper Elite: Resistance, Frostpunk 2, Symphonia etc) 
+- Install the PC (Steam/Epic) version of Hogwarts Legacy.
 - Plug in the Razer Sensa haptic devices.
-![Hogwarts1](Documentation/Images/Chroma_Connect_Apps.png)
-- Launch the Synesthesia app from the Synesthesia/ReleaseConsole folder (as Administrator). 
+- Check that Hogwarts Legacy is switched on as Chroma App. 
+- Open Razer Synapse 4. Go to the Razer Freyja/Kraken V4 Pro tab and press the Launch Sensa HD Haptics Button. Check that Haptic Source is Sensa HD Games. If it is Audio-to-Haptics switch it to Sensa HD Games.
+![Freyja Step 1](Documentation/Images/Razer-synapse-freyja-tab.png)
+![Freyja Step 2](Documentation/Images/Razer-chroma-freyja-tab.png)
 - Launch the Hogwarts Legacy game.
-![Hogwarts2](Documentation/Images/SynesthesiaHogwarts.png)
 - Stupefy! 
 *Haptics is implemented on all magic spells. If you have not played Hogwarts Legacy, install this save file through this quick guide:
-- Boot up the game from your Steam/Epic account. Once it shows the Hogwarts letter, exit out of the game.
+- Start up the game from your Steam/Epic account. Once it shows the Hogwarts letter, exit the game.
 - Disable Steam Cloud for the save games of Hogwarts Legacy. Right-click on Hogwarts Legacy (see image below).
 ![Hogwarts3](Documentation/Images/Hogwarts_Legacy_SteamCloud.png)
 - In your file explorer go to `C:\Users\<Your USERNAME>\AppData\Local\Hogwarts Legacy\Saved\SaveGames`
@@ -121,12 +123,5 @@ To use the console version instead of the production version of Synesthesia (inc
 - Press Play and enjoy the Razer Sensa Tech Demo.
 
 ![TechDemoSettings](Documentation/Images/TechDemoSettings.png)
-
-### 2.3. Mech Warrior 5 Mod <a name="mech-warrior-5-mod"></a> (Location: MechWarrior5)
-
-- Copy the folder `RzInterhaptics` from `MechWarrior5\HapticEngine\V2.0.1` to `C:\Program Files (x86)\Interhaptics\` (contains Clipboard Haptic Engine and custom haptic effects).
-- Copy the contents of `MechWarrior5` to `C:\Program Files\Epic Games\MW5Mercs\MW5Mercs\Mods`. If the `Mods` folder does not exist, you must create it. A complete guide with pictures can be found inside the `MechWarrior5` folder: `Mod_setup.pdf`.
-- Run ProtoComUnreal.exe from RzInterhaptics\x64\Release.
-
 
 [Back to Table of Contents](#table-of-contents)
