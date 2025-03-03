@@ -3,7 +3,7 @@
     1. [Razer Synapse 4 Setup](#razer-synapse)
     2. [Razer Kraken Firmware Update](#kraken-firmware-update)
     3. [Razer Sensa Devices Libraries](#razer-sensa-devices-libraries)
-    4. [Esther Device Setup](#esther-device-setup)
+    4. [Razer Freyja Setup](#esther-device-setup)
 2. [Apps](#apps)
     1. [Synesthesia App - Hogwarts Legacy](#synesthesia-app)
     2. [Tech Demo](#tech-demo) 
@@ -13,17 +13,15 @@
 The Razer Sensa DevKit consists of the following hardware devices and software suite:
 - Hardware:
   - Razer Kishi Ultra game controller (retail unit)
-  - Razer Kraken v3 headphones (retail unit; needs a firmware update)
-  - Razer Esther (pre-production unit) / Freyja haptic cushion (production unit)
+  - Razer Kraken v3 Hypersense headphones (retail unit; needs a firmware update) / Kraken v4 Pro (retail unit) [based on availability]
+  - Razer Freyja haptic cushion (retail unit)
 - Drivers/Firmware:
 	- Razer Synapse 4
 	- Razer Sensa device drivers
-	- Razer Kraken custom firmware
+	- Razer Kraken v3 Hypersense custom firmware
 - Demos
   - Hogwarts Legacy PC Version
   - Tech Demo
-  - Mech Warrior 5 Mod 
-  
 
 ## 1. Drivers Update <a name="drivers-update"></a>
 
@@ -60,11 +58,11 @@ The Razer Sensa DevKit consists of the following hardware devices and software s
 ![Freyja Step 1](Documentation/Images/Razer-synapse-freyja-tab.png)
 ![Freyja Step 2](Documentation/Images/Razer-chroma-freyja-tab.png)
 
-### 1.4. Esther Device Setup <a name="esther-device-setup"></a>
+### 1.4. Razer Freyja Setup <a name="esther-device-setup"></a>
 
-#### How to setup Esther
+#### How to setup Razer Freyja
 
-- Put the electrical plug into the socket and attach the cable to Esther.
+- Put the electrical plug into the socket and attach the cable to the Razer Freyja haptic cushion.
 - Turn on Esther by pushing the power button.
 - Plug the USB dongle into your PC.
 - LED indicator must be solid green to be connected
