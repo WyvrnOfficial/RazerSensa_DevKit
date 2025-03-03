@@ -29,22 +29,22 @@
                 "m_mute": 0,
                 "m_notes": [
                     {
-                        "m_gain": 0.7142857142857143,
+                        "m_gain": 0.4963144963144963,
                         "m_hapticEffect": {
                             "m_type": 0
                         },
                         "m_length": 0.022,
                         "m_priority": 0,
-                        "m_startingPoint": 0.7143572143572143
+                        "m_startingPoint": 0.7155271540425309
                     },
                     {
-                        "m_gain": 0.26190476190476186,
+                        "m_gain": 0.15561015561015556,
                         "m_hapticEffect": {
                             "m_type": 0
                         },
                         "m_length": 0.022,
                         "m_priority": 0,
-                        "m_startingPoint": 0.934005434005434
+                        "m_startingPoint": 0.934403989241565
                     }
                 ]
             },

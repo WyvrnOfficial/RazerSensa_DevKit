@@ -108,7 +108,10 @@ The following instructions are for the Hogwarts Legacy game, but can be applied 
 ![Freyja Step 2](Documentation/Images/Razer-chroma-freyja-tab.png)
 - Launch the Hogwarts Legacy game.
 - Stupefy! 
-*Haptics is implemented on all magic spells. If you have not played Hogwarts Legacy, install this save file through this quick guide:
+
+*If you want to see the haptic effects played or want to add a custom haptic folder (in case on a QA process skip the previous folder and just follow the 2.1.1 steps. After this copy the custom haptic folder inside the Synesthesia app HapticFolders and launch the game - image below contains the Hogwarts Legacy calls example as they appear during the game inside the Synesthesia console app)
+![Hogwarts2](Documentation/Images/SynesthesiaHogwarts.png)
+**Haptics is implemented on all the game events. If you have not played Hogwarts Legacy, install this save file through this quick guide:
 - Start up the game from your Steam/Epic account. Once it shows the Hogwarts letter, exit the game.
 - Disable Steam Cloud for the save games of Hogwarts Legacy. Right-click on Hogwarts Legacy (see image below).
 ![Hogwarts3](Documentation/Images/Hogwarts_Legacy_SteamCloud.png)

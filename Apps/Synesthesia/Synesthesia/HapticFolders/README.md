@@ -1,0 +1,20 @@
+# Version 1.0.0.8-0013
+
+# SynesthesiaHapticFolders
+repository for synesthesia haptic folders
+
+Current Catalogue:
+# ATELIER YUMIA
+# COMA 2B
+# FINAL FANTASY XVI
+# FROSTPUNK 2
+# HOGWARTS LEGACY
+# MORTAL KOMBAT 1
+# PAYDAY 3
+# PC BUILDING SIMULATOR 2
+# SCREW DRIVERS
+# SILENT HILL 2
+# SNIPER ELITE RESISTANCE
+# SNOWRUNNER
+# S.T.A.L.K.E.R. 2
+# SYMPHONIA
