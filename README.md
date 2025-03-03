@@ -91,9 +91,11 @@ The Synesthesia apps can be found in the folder `ReleaseConsole`. The engine is 
 
 To use the console version instead of the production version of Synesthesia (included in Synapse 4) follow the steps below.
 
-- Open Razer Synapse 4. Go to the Freyja Tab and press the Launch Sensa HD Haptics Button. Check that Haptic Source is Sensa HD Games. If it is Audio-to-Haptics switch it to Sensa HD Games.
-- Open Task Manager. Look for the Synesthesia process and close it.
-= Open the Synesthesia app downloaded from https://github.com/Interhaptics/RazerSensa_DevKit and test the setup with ChromaFakeClient and the following commands load; active; play wich will appar when starting the app. 
+- Open Razer Synapse 4. Go to the Freyja or Kraken v4 Pro Tab and press the Launch Sensa HD Haptics Button. Check that Haptic Source is Sensa HD Games. If it is Audio-to-Haptics switch it to Sensa HD Games.
+![Audio-to-Haptics to Chroma Sensa switch](Documentation/Images/Audio-to-Haptics_to_Chroma_Sensa_Switch.jpg)
+- Open Task Manager. Look for the Haptic Service background process and close it.
+![Haptic Service in Task Manager](Documentation/Images/Haptic_Service_End_Process.jpg)
+- Open the Synesthesia app downloaded from https://github.com/Interhaptics/RazerSensa_DevKit and test the setup with ChromaFakeClient and the following commands load; active; play which will appear when starting the app. 
 
 ##### 2.1. Test Haptics with Hogwarts Legacy PC Version
 
