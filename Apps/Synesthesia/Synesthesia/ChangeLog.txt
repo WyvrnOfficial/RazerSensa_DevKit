@@ -1,9 +1,9 @@
-Antoine Mariton - 03/10/2024 - v1.1.0.15
+04/01/2025 0 v1.1.0.16
 
-Features +++++++++++++++++++++++++++++++++++++++++++++++
+- Fix unrecognized characters for Windows folder names :<>?|
+
+03/10/2024 - v1.1.0.15
 
 - Try to find a known game if receive an unknown play command
-
-BugFix +++++++++++++++++++++++++++++++++++++++++++++++++
 
 
