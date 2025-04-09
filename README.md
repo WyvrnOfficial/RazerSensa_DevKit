@@ -82,9 +82,9 @@ The Razer Sensa DevKit consists of the following hardware devices and software s
 
 ##### 2.1.1 Overview
 
-The Synesthesia engine integrates the Chroma DLL enabled games with various Razer Sensa haptic devices to provide a synchronized gaming experience that involves dynamic haptic feedback based on in-game events. The DevKit contains an example of the Hogwarts Legacy haptic integration. A complete documentation on Synesthesia can be found at this link: https://www.interhaptics.com/doc/chroma-sensa/#synesthesia 
+The Synesthesia engine integrates the Chroma DLL enabled games with various Razer Sensa haptic devices to provide a synchronized gaming experience that involves dynamic haptic feedback based on in-game events. The DevKit contains an example of the Hogwarts Legacy haptic integration. A complete documentation on Synesthesia can be found at this link: [https://www.interhaptics.com/doc/chroma-sensa/#synesthesia ](https://doc.wyvrn.com/docs/wyvrn-sdk/wyvrn-configuration/haptics/)
 
-The Synesthesia apps can be found in the folder `ReleaseConsole`. The engine is shipped in Synapse 4 when Esther and Kraken V4 will launch.  
+The Synesthesia apps can be found in the folder `ReleaseConsole`. The engine is shipped in Synapse 4 when Esther and Kraken V4 Pro will launch.  
 
 To use the console version instead of the production version of Synesthesia (included in Synapse 4) follow the steps below.
 
