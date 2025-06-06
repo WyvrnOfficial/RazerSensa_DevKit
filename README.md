@@ -82,7 +82,7 @@ The Razer Sensa DevKit consists of the following hardware devices and software s
 
 ##### 2.1.1 Overview
 
-The Synesthesia engine integrates the Chroma DLL enabled games with various Razer Sensa haptic devices to provide a synchronized gaming experience that involves dynamic haptic feedback based on in-game events. The DevKit contains an example of the Hogwarts Legacy haptic integration. A complete documentation on Synesthesia can be found at this link: [https://www.interhaptics.com/doc/chroma-sensa/#synesthesia ](https://doc.wyvrn.com/docs/wyvrn-sdk/wyvrn-configuration/haptics/)
+The Synesthesia engine integrates the Chroma DLL enabled games with various Razer Sensa haptic devices to provide a synchronized gaming experience that involves dynamic haptic feedback based on in-game events. The DevKit contains an example of the Hogwarts Legacy haptic integration. A complete documentation on Synesthesia can be found at this link: [https://doc.wyvrn.com/docs/wyvrn-sdk/wyvrn-configuration/haptics/](https://doc.wyvrn.com/docs/wyvrn-sdk/wyvrn-configuration/haptics/)
 
 The Synesthesia apps can be found in the folder `ReleaseConsole`. The engine is shipped in Synapse 4 when Esther and Kraken V4 Pro will launch.  
 
@@ -91,13 +91,13 @@ To use the console version instead of the production version of Synesthesia (inc
 - Open Razer Synapse 4. Go to the Razer Freyja/Kraken V4 Pro tab and press the Launch Sensa HD Haptics Button. Check that Haptic Source is Sensa HD Games. If it is Audio-to-Haptics switch it to Sensa HD Games.
 ![Freyja Step 1](Documentation/Images/Razer-synapse-freyja-tab.png)
 ![Freyja Step 2](Documentation/Images/Razer-chroma-freyja-tab.png)
-- Open Task Manager. Look for the Haptic Service background process and close it.
+- Open Task Manager. Look for the Haptic Service background process and check if it is active. Restart it if it is not active.
 ![Haptic Service in Task Manager](Documentation/Images/Haptic_Service_End_Process.jpg)
 - Open the Synesthesia app downloaded from https://github.com/Interhaptics/RazerSensa_DevKit and test the setup with ChromaFakeClient and the following commands load; active; play which will appear when starting the app. 
 
 ##### 2.1.2 Test Haptics with Chroma Sensa integrated games (Case: Hogwarts Legacy)
 
-The following instructions are for the Hogwarts Legacy game, but can be applied to any game from the following link - https://www.razer.com/chroma-workshop#--sensa-games (ex: Final Fantasy XVI, Silent Hill 2, Sniper Elite: Resistance, Frostpunk 2, Symphonia etc) 
+The following instructions are for the Hogwarts Legacy game, but can be applied to any game from the following link - https://www.razer.com/chroma-workshop#--sensa-games (ex: Marvel Rivals, Final Fantasy XVI, Silent Hill 2, Sniper Elite: Resistance, Frostpunk 2, Symphonia etc) 
 - Install the PC (Steam/Epic) version of Hogwarts Legacy.
 - Plug in the Razer Sensa haptic devices.
 - Check that Hogwarts Legacy is switched on as Chroma App. 
