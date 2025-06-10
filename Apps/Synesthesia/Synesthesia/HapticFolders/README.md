@@ -1,14 +1,16 @@
-# Version 1.0.0.9-0014
+# Version 1.0.1.4-0017
 
-# SynesthesiaHapticFolders
-repository for synesthesia haptic folders
+# WYVRN Folders
+repository for WYVRN folders (Chroma animations, haptic effects)
 
 Current Catalogue:
 # ATELIER YUMIA
 # COMA 2B
+# DUNE AWAKENING
 # FINAL FANTASY XVI
 # FROSTPUNK 2
 # HOGWARTS LEGACY
+# MARVEL RIVALS
 # MORTAL KOMBAT 1
 # PAYDAY 3
 # PC BUILDING SIMULATOR 2
@@ -18,3 +20,5 @@ Current Catalogue:
 # SNOWRUNNER
 # S.T.A.L.K.E.R. 2
 # SYMPHONIA
+
+# GAME SAMPLE APPLICATION (FOR WYVRN DEVELOPERS)

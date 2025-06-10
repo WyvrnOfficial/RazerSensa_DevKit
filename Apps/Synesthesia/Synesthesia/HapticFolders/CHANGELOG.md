@@ -1,3 +1,18 @@
+# Version 1.0.1.4-0017
+Fixes for Dune Awakening chroma and haptic effects
+
+# Version 1.0.1.3-0017
+Added new game: Dune Awakening. New haptic effects for Atelier Yumia, Game Sample Application
+
+# Version 1.0.1.2-0016
+Marvel Rivals idle Chroma animation, various fixes. Added Game Sample Application folder for developers
+
+# Version 1.0.1.1-0015
+Added external Chroma animations: Marvel Rivals
+
+# Version 1.0.0.10-0015
+Added new game: Marvel Rivals, Mortal Kombat 1 DLC
+
 # Version 1.0.0.9-0014
 Added new game: Atelier Yumia: The Alchemist of Memories & The Envisioned Land
 
