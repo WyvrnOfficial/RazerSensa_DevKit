@@ -1,0 +1,26 @@
+load;Borderlands 4
+unload;Borderlands 4
+load;Marvel Rivals
+unload;Marvel Rivals
+play;CaptainAmerica_FreedomCharge_On
+load;TestApp
+unload;TestApp
+play;dummy
+load;TestPriority
+play;Const2_low
+play;Phoenix_DarkAscent_On
+play;Phoenix_DarkAscent_Missile
+play;Phoenix_DarkAscent_Off
+stop;Phoenix_DarkAscent_On
+stop;Phoenix_DarkAscent_Missile
+stop;Phoenix_DarkAscent_Off
+v1;load;Marvel Rivals;1234
+v1;unload;Marvel Rivals;1234
+v1;play;CaptainAmerica_FreedomCharge_OnXXX;{"gameID":{"name":"Marvel Rivals","PID":1234},"priority":4,"fallbackEvent":"@AssaultRifle"}
+v1;play;CaptainAmerica_FreedomCharge_On;{"gameID":{"name":"Marvel Rivals","PID":1234},"priority":4,"fallbackEvent":"@AssaultRifle"}
+v1;play;@AssaultRifle;{"gameID":{"name":"Marvel Rivals","PID":1234},"priority":4,"fallbackEvent":"@CaptainAmerica_FreedomCharge_On"}
+v1;load;TestApp;4321
+v1;unload;TestApp;4321
+v1;play;dummy;{"gameID":{"name":"Borderlands 4","PID":4321},"priority":4,"fallbackEvent":"@AssaultRifle"}
+stop;
+v1;stop;

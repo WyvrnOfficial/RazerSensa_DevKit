@@ -1,4 +1,0 @@
-2023.12.21
-- updated Razer Chroma dll
-- updated MW5 Mod to v 1.0; added Short Version
-- updated Haptic Effects; replace previous folder inside RzInterhaptics folder
