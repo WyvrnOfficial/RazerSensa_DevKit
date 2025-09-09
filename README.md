@@ -11,14 +11,12 @@
 
 The Razer Sensa DevKit consists of the following hardware devices and software suite:
 - Hardware:
-  - Razer Kishi Ultra game controller (retail unit)
-  - Razer Kraken v3 Hypersense headphones (retail unit; needs a firmware update) / Kraken v4 Pro (retail unit) [based on availability]
+  - Razer Kraken v4 Pro (devkit unit - no base station)
   - Razer Freyja haptic cushion (retail unit)
   - Razer Wolverine V3 Pro controller (retail unit) [based on availability]
+  - Razer Chroma RGB devices (keyboard, mouse, mousepad) [based on availability]
 - Drivers/Firmware:
 	- Razer Synapse 4
-	- Razer Sensa device drivers
-	- Razer Kraken v3 Hypersense custom firmware
 - Demos
   - Hogwarts Legacy PC Version
   - Tech Demo
@@ -40,7 +38,7 @@ The Razer Sensa DevKit consists of the following hardware devices and software s
 #### How to setup Razer Freyja
 
 - Put the electrical plug into the socket and attach the cable to the Razer Freyja haptic cushion.
-- Turn on Esther by pushing the power button.
+- Turn on Freyja by pushing the power button.
 - Plug the USB dongle into your PC.
 - LED indicator must be solid green to be connected
 
