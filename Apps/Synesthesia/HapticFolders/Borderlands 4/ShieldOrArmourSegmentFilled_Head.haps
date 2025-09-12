@@ -1,0 +1,59 @@
+{
+    "description": "",
+    "gain": 1.0,
+    "version": "6",
+    "vibration": {
+        "frequency_range": {
+            "max": 1000.0,
+            "min": 0.0
+        },
+        "gain": 1.0,
+        "loop": false,
+        "melodies": [
+            {
+                "gain": 1.0,
+                "mute": false,
+                "notes": [
+                    {
+                        "amplitude": {
+                            "gain": 1,
+                            "interpolation_function": "Linear",
+                            "keyframes": [
+                                {
+                                    "position": -0.0016604704995221353,
+                                    "value": 0.004140697448726471
+                                },
+                                {
+                                    "position": 0.6055182421590717,
+                                    "value": 0.5610860704349889
+                                },
+                                {
+                                    "position": 0.6248903979868302,
+                                    "value": 0.004140697448726471
+                                }
+                            ]
+                        },
+                        "length": 0.6265508684863523,
+                        "m_gain": 1.0,
+                        "pitch": {
+                            "gain": 1,
+                            "interpolation_function": "Linear",
+                            "keyframes": [
+                                {
+                                    "position": 0.0,
+                                    "value": 0.03
+                                },
+                                {
+                                    "position": 0.6265508684863523,
+                                    "value": 0.0349508624889674
+                                }
+                            ]
+                        },
+                        "position": 0.0
+                    }
+                ]
+            }
+        ],
+        "transients": []
+    }
+}

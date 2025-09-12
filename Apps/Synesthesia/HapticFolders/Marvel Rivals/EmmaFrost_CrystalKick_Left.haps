@@ -1,0 +1,100 @@
+{
+    "description": "",
+    "gain": 1.0,
+    "version": "6",
+    "vibration": {
+        "frequency_range": {
+            "max": 1000.0,
+            "min": 0.0
+        },
+        "gain": 1.0,
+        "loop": false,
+        "melodies": [
+            {
+                "gain": 1.0,
+                "mute": false,
+                "notes": [
+                    {
+                        "amplitude": {
+                            "gain": 1,
+                            "interpolation_function": "Linear",
+                            "keyframes": [
+                                {
+                                    "position": 0.0,
+                                    "value": 0.0109566344370432
+                                },
+                                {
+                                    "position": 0.0012276348439336365,
+                                    "value": 0.004169018977721817
+                                },
+                                {
+                                    "position": 0.07249470258186975,
+                                    "value": 0.5497920967670618
+                                },
+                                {
+                                    "position": 0.2371925471246355,
+                                    "value": 0.7763584817075945
+                                },
+                                {
+                                    "position": 0.26200736311921025,
+                                    "value": 0.16039430266070753
+                                },
+                                {
+                                    "position": 0.29946348488886476,
+                                    "value": 0.006683095944196138
+                                },
+                                {
+                                    "position": 0.8749118453702495,
+                                    "value": 0.004169018977721817
+                                }
+                            ]
+                        },
+                        "length": 0.8775434243176179,
+                        "m_gain": 1.0,
+                        "pitch": {
+                            "gain": 1,
+                            "interpolation_function": "Linear",
+                            "keyframes": [
+                                {
+                                    "position": 0.0,
+                                    "value": 0.06831154982512731
+                                },
+                                {
+                                    "position": 0.09421009098428436,
+                                    "value": 0.20006699185496965
+                                },
+                                {
+                                    "position": 0.22394693574400804,
+                                    "value": 0.24874693465677275
+                                },
+                                {
+                                    "position": 0.27511651753908156,
+                                    "value": 0.06594231652813169
+                                },
+                                {
+                                    "position": 0.8775434243176179,
+                                    "value": 0.065
+                                }
+                            ]
+                        },
+                        "position": 0.12245657568238215
+                    }
+                ]
+            }
+        ],
+        "transients": [
+            {
+                "amplitude": 0.9096712554826942,
+                "pitch": 0.09090909090909093,
+                "position": 0.22280701754385965,
+                "type": "Simple"
+            },
+            {
+                "amplitude": 0.3832517865500886,
+                "pitch": 0.09090909090909093,
+                "position": 0.23709585684910522,
+                "type": "Simple"
+            }
+        ]
+    }
+}

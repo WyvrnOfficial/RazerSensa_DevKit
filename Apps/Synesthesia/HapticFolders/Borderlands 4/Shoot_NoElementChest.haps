@@ -1,0 +1,81 @@
+{
+    "description": "",
+    "gain": 1.0,
+    "version": "6",
+    "vibration": {
+        "frequency_range": {
+            "max": 1000.0,
+            "min": 0.0
+        },
+        "gain": 1.0,
+        "loop": false,
+        "melodies": [
+            {
+                "gain": 1.0,
+                "mute": false,
+                "notes": [
+                    {
+                        "amplitude": {
+                            "gain": 1,
+                            "interpolation_function": "Linear",
+                            "keyframes": [
+                                {
+                                    "position": 0.0,
+                                    "slope": 0.0,
+                                    "value": 0.0
+                                },
+                                {
+                                    "position": 0.08539385081375395,
+                                    "slope": 0.0,
+                                    "value": 1.0
+                                },
+                                {
+                                    "position": 0.0952175754397614,
+                                    "value": 1.0
+                                },
+                                {
+                                    "position": 0.1004905550746029,
+                                    "value": 0.057080251172761276
+                                },
+                                {
+                                    "position": 0.179075,
+                                    "slope": 0.0,
+                                    "value": 0.0
+                                }
+                            ]
+                        },
+                        "length": 0.179075,
+                        "m_gain": 1.0,
+                        "pitch": {
+                            "gain": 1,
+                            "interpolation_function": "Linear",
+                            "keyframes": [
+                                {
+                                    "position": 0.0,
+                                    "slope": 0.0,
+                                    "value": 0.04
+                                },
+                                {
+                                    "position": 0.08923558337702733,
+                                    "value": 0.17894832913606237
+                                },
+                                {
+                                    "position": 0.179075,
+                                    "slope": 0.0,
+                                    "value": 0.04
+                                }
+                            ]
+                        },
+                        "position": 0.0
+                    }
+                ]
+            },
+            {
+                "gain": 1.0,
+                "mute": false,
+                "notes": []
+            }
+        ],
+        "transients": []
+    }
+}

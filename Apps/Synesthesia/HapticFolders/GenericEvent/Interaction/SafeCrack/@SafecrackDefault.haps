@@ -1,0 +1,89 @@
+{
+    "m_HDFlag": 0,
+    "m_description": "",
+    "m_gain": 1.0,
+    "m_length_unit": 7,
+    "m_stiffness": {
+        "m_gain": 1.0,
+        "m_loop": 0,
+        "m_melodies": [
+            {
+                "m_gain": 1.0,
+                "m_mute": 0,
+                "m_notes": [
+                    {
+                        "m_hapticEffect": {
+                            "m_amplitudeModulation": {
+                                "m_extrapolationStrategy": 1,
+                                "m_keyframes": [
+                                    {
+                                        "m_inSlope": 0.0,
+                                        "m_outSlope": 0.0,
+                                        "m_time": 0.0,
+                                        "m_value": 0.0
+                                    },
+                                    {
+                                        "m_time": 0.05033299626904704,
+                                        "m_value": 0.11622396001637259
+                                    },
+                                    {
+                                        "m_time": 0.11058614317096133,
+                                        "m_value": 1e-05
+                                    },
+                                    {
+                                        "m_inSlope": 0.0,
+                                        "m_outSlope": 0.0,
+                                        "m_time": 0.9965305624324419,
+                                        "m_value": 1e-05
+                                    }
+                                ]
+                            },
+                            "m_gain": 1,
+                            "m_length": 1,
+                            "m_priority": 1,
+                            "m_startingPoint": 0
+                        }
+                    }
+                ]
+            }
+        ],
+        "m_signalEvaluationMethod": 3
+    },
+    "m_texture": {
+        "m_gain": 1.0,
+        "m_loop": 0,
+        "m_maximum": 1.0,
+        "m_melodies": [],
+        "m_signalEvaluationMethod": 3
+    },
+    "m_time_unit": 0,
+    "m_version": "5",
+    "m_vibration": {
+        "m_gain": 1.0,
+        "m_loop": 0,
+        "m_maximum": 1.0,
+        "m_melodies": [
+            {
+                "m_gain": 1.0,
+                "m_mute": 0,
+                "m_notes": [
+                    {
+                        "m_gain": 0.18656058075963466,
+                        "m_hapticEffect": {
+                            "m_type": 0
+                        },
+                        "m_length": 0.022,
+                        "m_priority": 0,
+                        "m_startingPoint": 0.0
+                    }
+                ]
+            },
+            {
+                "m_gain": 1.0,
+                "m_mute": 0,
+                "m_notes": []
+            }
+        ],
+        "m_signalEvaluationMethod": 3
+    }
+}

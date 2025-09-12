@@ -1,0 +1,102 @@
+{
+    "description": "",
+    "gain": 1.0,
+    "version": "6",
+    "vibration": {
+        "frequency_range": {
+            "max": 1000.0,
+            "min": 0.0
+        },
+        "gain": 1.0,
+        "loop": false,
+        "melodies": [
+            {
+                "gain": 1.0,
+                "mute": false,
+                "notes": [
+                    {
+                        "amplitude": {
+                            "gain": 1,
+                            "interpolation_function": "Linear",
+                            "keyframes": [
+                                {
+                                    "position": -0.0026315789473684336,
+                                    "value": 0.004777188922893139
+                                },
+                                {
+                                    "position": 0.039473684210526314,
+                                    "value": 0.7993580652384862
+                                },
+                                {
+                                    "position": 0.05175438596491228,
+                                    "value": 0.21972580926077978
+                                },
+                                {
+                                    "position": 0.07631578947368421,
+                                    "value": 0.7499937797019234
+                                },
+                                {
+                                    "position": 0.11315789473684211,
+                                    "value": 0.23883456495235256
+                                },
+                                {
+                                    "position": 0.13947368421052628,
+                                    "value": 0.5557214301709338
+                                },
+                                {
+                                    "position": 0.1780701754385965,
+                                    "value": 0.004777188922893139
+                                },
+                                {
+                                    "position": 0.9973684210526316,
+                                    "value": 0.004777188922893139
+                                }
+                            ]
+                        },
+                        "length": 1.0,
+                        "m_gain": 1.0,
+                        "pitch": {
+                            "gain": 1,
+                            "interpolation_function": "Linear",
+                            "keyframes": [
+                                {
+                                    "position": 0.0,
+                                    "value": 0.065
+                                },
+                                {
+                                    "position": 0.0,
+                                    "value": 0.15
+                                },
+                                {
+                                    "position": 0.08421052631578947,
+                                    "value": 0.24311960389141848
+                                },
+                                {
+                                    "position": 0.11315789473684211,
+                                    "value": 0.17576124007862462
+                                },
+                                {
+                                    "position": 0.17982456140350878,
+                                    "value": 0.065
+                                },
+                                {
+                                    "position": 1.0,
+                                    "value": 0.065
+                                }
+                            ]
+                        },
+                        "position": 0.0
+                    }
+                ]
+            }
+        ],
+        "transients": [
+            {
+                "amplitude": 0.4729264333985773,
+                "pitch": 0.09090909090909093,
+                "position": 0.07099603848330503,
+                "type": "Simple"
+            }
+        ]
+    }
+}

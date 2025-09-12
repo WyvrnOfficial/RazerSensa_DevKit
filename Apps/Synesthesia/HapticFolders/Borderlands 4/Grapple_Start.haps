@@ -1,0 +1,74 @@
+{
+    "description": "",
+    "gain": 1.0,
+    "version": "6",
+    "vibration": {
+        "frequency_range": {
+            "max": 1000.0,
+            "min": 0.0
+        },
+        "gain": 1.0,
+        "loop": false,
+        "melodies": [
+            {
+                "gain": 1.0,
+                "mute": false,
+                "notes": [
+                    {
+                        "amplitude": {
+                            "gain": 1,
+                            "interpolation_function": "Linear",
+                            "keyframes": [
+                                {
+                                    "position": -0.0026858065587525392,
+                                    "value": 0.00512765676664062
+                                },
+                                {
+                                    "position": 0.05461139319760876,
+                                    "slope": 0.0,
+                                    "value": 0.4171563605654902
+                                },
+                                {
+                                    "position": 0.8941056120588686,
+                                    "slope": 0.0,
+                                    "value": 0.8207462063377795
+                                },
+                                {
+                                    "position": 0.9028147060043492,
+                                    "value": 0.00512765676664062
+                                }
+                            ]
+                        },
+                        "length": 0.9055005125631017,
+                        "m_gain": 1.0,
+                        "pitch": {
+                            "gain": 1,
+                            "interpolation_function": "Linear",
+                            "keyframes": [
+                                {
+                                    "position": 0.0,
+                                    "slope": 0.0,
+                                    "value": 0.07995447140888012
+                                },
+                                {
+                                    "position": 0.9055005125631017,
+                                    "slope": 0.0,
+                                    "value": 0.1161809986492095
+                                }
+                            ]
+                        },
+                        "position": 0.23285325276089128
+                    }
+                ]
+            }
+        ],
+        "transients": [
+            {
+                "amplitude": 0.7059360080295138,
+                "pitch": 0.09090909090909093,
+                "position": 0.010010389341925182,
+                "type": "Simple"
+            }
+        ]
+    }
+}

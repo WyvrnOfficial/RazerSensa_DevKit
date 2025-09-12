@@ -1,0 +1,55 @@
+{
+    "description": "",
+    "gain": 1.0,
+    "version": "6",
+    "vibration": {
+        "frequency_range": {
+            "max": 1000.0,
+            "min": 0.0
+        },
+        "gain": 1.0,
+        "loop": false,
+        "melodies": [
+            {
+                "gain": 1.0,
+                "mute": false,
+                "notes": [
+                    {
+                        "amplitude": {
+                            "gain": 1,
+                            "interpolation_function": "Linear",
+                            "keyframes": [
+                                {
+                                    "position": -0.005909625179574274,
+                                    "value": 0.10422911859216288
+                                },
+                                {
+                                    "position": 2.239747943058639,
+                                    "value": 0.19670469494705511
+                                }
+                            ]
+                        },
+                        "length": 2.2456575682382134,
+                        "m_gain": 1.0,
+                        "pitch": {
+                            "gain": 1,
+                            "interpolation_function": "Linear",
+                            "keyframes": [
+                                {
+                                    "position": 0.0,
+                                    "value": 0.027928510188572547
+                                },
+                                {
+                                    "position": 2.2456575682382134,
+                                    "value": 0.048079967219478534
+                                }
+                            ]
+                        },
+                        "position": 0.0
+                    }
+                ]
+            }
+        ],
+        "transients": []
+    }
+}

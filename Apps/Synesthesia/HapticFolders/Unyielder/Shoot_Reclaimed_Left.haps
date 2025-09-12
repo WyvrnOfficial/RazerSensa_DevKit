@@ -1,0 +1,102 @@
+{
+    "description": "",
+    "gain": 1.0,
+    "version": "6",
+    "vibration": {
+        "frequency_range": {
+            "max": 1000.0,
+            "min": 0.0
+        },
+        "gain": 1.0,
+        "loop": false,
+        "melodies": [
+            {
+                "gain": 1.0,
+                "mute": false,
+                "notes": [
+                    {
+                        "amplitude": {
+                            "gain": 1,
+                            "interpolation_function": "Linear",
+                            "keyframes": [
+                                {
+                                    "position": 0.0,
+                                    "value": 0.36992524732569365
+                                },
+                                {
+                                    "position": 0.012223526906213422,
+                                    "value": 0.3815955183045989
+                                },
+                                {
+                                    "position": 0.07340388966374367,
+                                    "value": 0.9666478481782257
+                                },
+                                {
+                                    "position": 0.15340897942359083,
+                                    "value": 0.9847135970816867
+                                },
+                                {
+                                    "position": 0.939341331770325,
+                                    "value": 0.17731358839623068
+                                },
+                                {
+                                    "position": 1.03346496678191,
+                                    "value": 0.004169018977721817
+                                },
+                                {
+                                    "position": 1.2334776911815275,
+                                    "value": 0.12507056933165417
+                                },
+                                {
+                                    "position": 1.41033476017041,
+                                    "value": 0.17370912407174188
+                                }
+                            ]
+                        },
+                        "length": 1.41033476017041,
+                        "m_gain": 1.0,
+                        "pitch": {
+                            "gain": 1,
+                            "interpolation_function": "Linear",
+                            "keyframes": [
+                                {
+                                    "position": 0.0,
+                                    "value": 0.17093587590962095
+                                },
+                                {
+                                    "position": 0.056932253536716326,
+                                    "value": 0.1866791158205585
+                                },
+                                {
+                                    "position": 0.12046570716953625,
+                                    "value": 0.2882433664828245
+                                },
+                                {
+                                    "position": 1.0852329660382816,
+                                    "value": 0.2268476136709081
+                                },
+                                {
+                                    "position": 1.1040576930405979,
+                                    "value": 0.065
+                                },
+                                {
+                                    "position": 1.41033476017041,
+                                    "value": 0.10470925435358493
+                                }
+                            ]
+                        },
+                        "position": 0.383095740142443
+                    }
+                ]
+            }
+        ],
+        "transients": [
+            {
+                "amplitude": 1.0,
+                "pitch": 0.09090909090909093,
+                "position": 0.4819538941807412,
+                "type": "Simple"
+            }
+        ]
+    }
+}

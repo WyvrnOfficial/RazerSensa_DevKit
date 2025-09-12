@@ -1,93 +1,66 @@
 {
-    "m_HDFlag": 0,
-    "m_description": "",
-    "m_gain": 1.0,
-    "m_length_unit": 7,
-    "m_stiffness": {
-        "m_gain": 1.0,
-        "m_loop": 0,
-        "m_maximum": 1.0,
-        "m_melodies": [],
-        "m_signalEvaluationMethod": 3
-    },
-    "m_texture": {
-        "m_gain": 1.0,
-        "m_loop": 0,
-        "m_maximum": 1.0,
-        "m_melodies": [],
-        "m_signalEvaluationMethod": 3
-    },
-    "m_time_unit": 0,
-    "m_version": "5",
-    "m_vibration": {
-        "m_gain": 1.0,
-        "m_loop": 0,
-        "m_maximum": 1.0,
-        "m_melodies": [
+    "description": "",
+    "gain": 1.0,
+    "version": "6",
+    "vibration": {
+        "frequency_range": {
+            "max": 1000.0,
+            "min": 0.0
+        },
+        "gain": 1.0,
+        "loop": false,
+        "melodies": [
             {
-                "m_gain": 1.0,
-                "m_mute": 0,
-                "m_notes": [
+                "gain": 1.0,
+                "mute": false,
+                "notes": [
                     {
-                        "m_gain": 0.9397290911110174,
-                        "m_hapticEffect": {
-                            "m_type": 0
+                        "amplitude": {
+                            "gain": 1,
+                            "interpolation_function": "Linear",
+                            "keyframes": [
+                                {
+                                    "position": 0.0,
+                                    "slope": 0.0,
+                                    "value": 0.0
+                                },
+                                {
+                                    "position": 0.20114699999999996,
+                                    "slope": 0.0,
+                                    "value": 0.0
+                                }
+                            ]
                         },
-                        "m_length": 0.022,
-                        "m_priority": 0,
-                        "m_startingPoint": 0.022638088630500496
-                    }
-                ]
-            },
-            {
-                "m_gain": 1.0,
-                "m_mute": 0,
-                "m_notes": [
-                    {
+                        "length": 0.20114699999999996,
                         "m_gain": 1.0,
-                        "m_hapticEffect": {
-                            "m_amplitudeModulation": {
-                                "m_extrapolationStrategy": 0,
-                                "m_keyframes": [
-                                    {
-                                        "m_inSlope": 0.0,
-                                        "m_outSlope": 0.0,
-                                        "m_time": 0.0,
-                                        "m_value": 0.0
-                                    },
-                                    {
-                                        "m_inSlope": 0.0,
-                                        "m_outSlope": 0.0,
-                                        "m_time": 0.20114699999999996,
-                                        "m_value": 0.0
-                                    }
-                                ]
-                            },
-                            "m_frequencyModulation": {
-                                "m_extrapolationStrategy": 0,
-                                "m_keyframes": [
-                                    {
-                                        "m_inSlope": 0.0,
-                                        "m_outSlope": 0.0,
-                                        "m_time": 0.0,
-                                        "m_value": 150.0
-                                    },
-                                    {
-                                        "m_inSlope": 0.0,
-                                        "m_outSlope": 0.0,
-                                        "m_time": 0.20114699999999996,
-                                        "m_value": 150.0
-                                    }
-                                ]
-                            }
+                        "pitch": {
+                            "gain": 1,
+                            "interpolation_function": "Linear",
+                            "keyframes": [
+                                {
+                                    "position": 0.0,
+                                    "slope": 0.0,
+                                    "value": 0.15
+                                },
+                                {
+                                    "position": 0.20114699999999996,
+                                    "slope": 0.0,
+                                    "value": 0.15
+                                }
+                            ]
                         },
-                        "m_length": 0.20114699999999996,
-                        "m_priority": 1,
-                        "m_startingPoint": 0.0
+                        "position": 0.0
                     }
                 ]
             }
         ],
-        "m_signalEvaluationMethod": 3
+        "transients": [
+            {
+                "amplitude": 0.9397290911110174,
+                "pitch": 0.09090909090909093,
+                "position": 0.022638088630500496,
+                "type": "Simple"
+            }
+        ]
     }
 }

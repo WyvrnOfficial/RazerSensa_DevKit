@@ -1,0 +1,75 @@
+{
+    "description": "",
+    "gain": 1.0,
+    "version": "6",
+    "vibration": {
+        "frequency_range": {
+            "max": 1000.0,
+            "min": 0.0
+        },
+        "gain": 1.0,
+        "loop": false,
+        "melodies": [
+            {
+                "gain": 1.0,
+                "mute": false,
+                "notes": [
+                    {
+                        "amplitude": {
+                            "gain": 1,
+                            "interpolation_function": "Linear",
+                            "keyframes": [
+                                {
+                                    "position": -0.0004110633514986375,
+                                    "slope": 0.0,
+                                    "value": 0.004009857566517727
+                                },
+                                {
+                                    "position": 0.0027404223433242425,
+                                    "value": 1.0040098575665177
+                                },
+                                {
+                                    "position": 0.15784832697547685,
+                                    "value": 1.0040098575665177
+                                },
+                                {
+                                    "position": 0.17059129087193464,
+                                    "slope": 0.0,
+                                    "value": 0.004009857566517727
+                                },
+                                {
+                                    "position": 0.20073593664850134,
+                                    "value": 0.004009857566517727
+                                }
+                            ]
+                        },
+                        "length": 0.20114699999999996,
+                        "m_gain": 1.0,
+                        "pitch": {
+                            "gain": 1,
+                            "interpolation_function": "Linear",
+                            "keyframes": [
+                                {
+                                    "position": 0.0,
+                                    "slope": 0.0,
+                                    "value": 0.065
+                                },
+                                {
+                                    "position": 0.0027404223433242503,
+                                    "value": 0.1442036673488994
+                                },
+                                {
+                                    "position": 0.20114699999999996,
+                                    "slope": 0.0,
+                                    "value": 0.14466020634058724
+                                }
+                            ]
+                        },
+                        "position": 0.0
+                    }
+                ]
+            }
+        ],
+        "transients": []
+    }
+}

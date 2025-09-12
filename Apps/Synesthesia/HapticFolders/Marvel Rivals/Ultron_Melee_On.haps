@@ -1,0 +1,102 @@
+{
+    "description": "",
+    "gain": 1.0,
+    "version": "6",
+    "vibration": {
+        "frequency_range": {
+            "max": 1000.0,
+            "min": 0.0
+        },
+        "gain": 1.0,
+        "loop": false,
+        "melodies": [
+            {
+                "gain": 1.0,
+                "mute": false,
+                "notes": [
+                    {
+                        "amplitude": {
+                            "gain": 1,
+                            "interpolation_function": "Linear",
+                            "keyframes": [
+                                {
+                                    "position": -0.0020435967302452314,
+                                    "value": 0.004009857566517727
+                                },
+                                {
+                                    "position": 0.05790190735694823,
+                                    "value": 0.021594753769683783
+                                },
+                                {
+                                    "position": 0.07140709337807838,
+                                    "value": 0.7767845954638487
+                                },
+                                {
+                                    "position": 0.10723407256717325,
+                                    "value": 0.7995071216741156
+                                },
+                                {
+                                    "position": 0.1368884986895737,
+                                    "value": 0.2768890188379767
+                                },
+                                {
+                                    "position": 0.19300759527504097,
+                                    "value": 0.04164404160227231
+                                },
+                                {
+                                    "position": 0.49659400544959126,
+                                    "value": 0.004009857566517727
+                                },
+                                {
+                                    "position": 0.9979564032697548,
+                                    "value": 0.004009857566517727
+                                }
+                            ]
+                        },
+                        "length": 1.0,
+                        "m_gain": 1.0,
+                        "pitch": {
+                            "gain": 1,
+                            "interpolation_function": "Linear",
+                            "keyframes": [
+                                {
+                                    "position": 0.0,
+                                    "value": 0.065
+                                },
+                                {
+                                    "position": 0.05722070844686648,
+                                    "value": 0.07133118917338453
+                                },
+                                {
+                                    "position": 0.07356948228882834,
+                                    "value": 0.22273004469320415
+                                },
+                                {
+                                    "position": 0.1164850136239782,
+                                    "value": 0.2465529844200326
+                                },
+                                {
+                                    "position": 0.19141689373297002,
+                                    "value": 0.06782694958439492
+                                },
+                                {
+                                    "position": 1.0,
+                                    "value": 0.065
+                                }
+                            ]
+                        },
+                        "position": 0.0
+                    }
+                ]
+            }
+        ],
+        "transients": [
+            {
+                "amplitude": 0.7430424905477508,
+                "pitch": 0.09090909090909093,
+                "position": 0.08715190193626726,
+                "type": "Simple"
+            }
+        ]
+    }
+}

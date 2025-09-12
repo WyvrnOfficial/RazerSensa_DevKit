@@ -1,0 +1,71 @@
+{
+    "description": "",
+    "gain": 1.0,
+    "version": "6",
+    "vibration": {
+        "frequency_range": {
+            "max": 1000.0,
+            "min": 0.0
+        },
+        "gain": 1.0,
+        "loop": false,
+        "melodies": [
+            {
+                "gain": 1.0,
+                "mute": false,
+                "notes": [
+                    {
+                        "amplitude": {
+                            "gain": 1,
+                            "interpolation_function": "Linear",
+                            "keyframes": [
+                                {
+                                    "position": -0.00475158918995703,
+                                    "value": 0.16148720050033427
+                                },
+                                {
+                                    "position": 0.9899144145743812,
+                                    "value": 0.040738424378356175
+                                },
+                                {
+                                    "position": 2.062189708441351,
+                                    "value": 0.1573465030516078
+                                }
+                            ]
+                        },
+                        "length": 2.066941297631308,
+                        "m_gain": 1.0,
+                        "pitch": {
+                            "gain": 1,
+                            "interpolation_function": "Linear",
+                            "keyframes": [
+                                {
+                                    "position": 0.0,
+                                    "value": 0.045831697901615245
+                                },
+                                {
+                                    "position": 0.5115877694520405,
+                                    "value": 0.03064988422291097
+                                },
+                                {
+                                    "position": 1.0010014560176146,
+                                    "value": 0.04542700426593348
+                                },
+                                {
+                                    "position": 1.503086047089741,
+                                    "value": 0.03064988422291097
+                                },
+                                {
+                                    "position": 2.066941297631308,
+                                    "value": 0.04600016091064874
+                                }
+                            ]
+                        },
+                        "position": 0.0
+                    }
+                ]
+            }
+        ],
+        "transients": []
+    }
+}
