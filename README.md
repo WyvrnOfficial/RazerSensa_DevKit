@@ -53,7 +53,7 @@ The Razer Sensa DevKit consists of the following hardware devices and software s
 
 ### 1.3. Razer Wolverine V3 Pro Setup <a name="wolverine-device-setup"></a>
 
-#### Firmware Update for Razer Wolverine V3 Pro
+#### Firmware Update for Razer Wolverine V3 Pro (v2.02 or higher)
 
  - Download the Razer Wolverine V3 Pro Firmware Updater from this link: https://mysupport.razer.com/app/answers/detail/a_id/14630/~/razer-wolverine-v3-pro-firmware-updater-%7C-rz06-0520 
  - Follow the instructions from the link above to update the firmware of the Razer Wolverine V3 Pro controller.
@@ -63,7 +63,6 @@ The Razer Sensa DevKit consists of the following hardware devices and software s
 - Plug the USB dongle or USB cable into your PC.
 - Turn on the controller by pushing the Xbox button.
 - Press o + Menu + A button simultaneously for 2 seconds to enter PC mode. Sensa HD Haptics are supported only in PC mode, not in Xbox mode.
-- 
 
 ## 2. Apps <a name="apps"></a>
 
