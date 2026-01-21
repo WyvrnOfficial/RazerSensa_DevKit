@@ -1,11 +1,18 @@
+# Razer Sensa DevKit
+  
+[![English](https://img.shields.io/badge/lang-English-red.svg)](README.md)
+[![日本語](https://img.shields.io/badge/lang-日本語-green.svg)](README.ja.md)
+
 ## Table of Contents
-1. [Drivers Update](#drivers-update)
-    1. [Razer Synapse 4 Setup](#razer-synapse)
-    2. [Razer Freyja Setup](#esther-device-setup)
-    3. [Razer Wolverine V3 Pro Setup](#wolverine-device-setup)
-2. [Apps](#apps)
-    1. [Synesthesia App - Hogwarts Legacy / Marvel Rivals](#synesthesia-app)
-    2. [Tech Demo](#tech-demo) 
+- [Razer Sensa DevKit](#razer-sensa-devkit)
+  - [Table of Contents](#table-of-contents)
+  - [1. Drivers Update ](#1-drivers-update-)
+    - [1.1. Razer Synapse 4 Setup  (Location: Drivers\\Kraken)](#11-razer-synapse-4-setup--location-driverskraken)
+    - [1.2. Razer Freyja Setup ](#12-razer-freyja-setup-)
+    - [1.3. Razer Wolverine V3 Pro Setup ](#13-razer-wolverine-v3-pro-setup-)
+  - [2. Apps ](#2-apps-)
+    - [2.1 Synesthesia App  (Location: Synesthesia)](#21-synesthesia-app--location-synesthesia)
+    - [2.2. Tech Demo  (Location: TechDemo)](#22-tech-demo--location-techdemo)
 
 ---
 
