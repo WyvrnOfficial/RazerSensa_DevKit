@@ -1,7 +1,9 @@
 # Razer Sensa DevKit
 
 [![English](https://img.shields.io/badge/lang-English-red.svg)](README.md)
+[![简体中文](https://img.shields.io/badge/lang-简体中文-green.svg)](README.zhcn.md)
 [![日本語](https://img.shields.io/badge/lang-日本語-green.svg)](README.ja.md)
+
 
 ## 目次
 - [Razer Sensa DevKit](#razer-sensa-devkit)
