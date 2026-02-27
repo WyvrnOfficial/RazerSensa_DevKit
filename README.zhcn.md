@@ -12,8 +12,8 @@
     - [1.2. Razer Freyja 安装 ](#12-razer-freyja-安装-)
     - [1.3. Razer Wolverine V3 Pro 安装 ](#13-razer-wolverine-v3-pro-安装-)
   - [2. 应用程序 ](#2-应用程序-)
-    - [2.1 Synesthesia 应用（位置：Synesthesia）](#21-synesthesia-应用位置synesthesia)
-    - [2.2. 技术演示（位置：TechDemo）](#22-技术演示位置techdemo)
+    - [2.1 Synesthesia 应用（位置：Synesthesia）](#synesthesia-app)
+    - [2.2 技术演示（位置：TechDemo）](#tech-demo)
 
 ---
 
