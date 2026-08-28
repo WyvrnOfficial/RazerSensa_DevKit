@@ -81,7 +81,7 @@ To use the console version instead of the production version of Synesthesia (inc
 ![Freyja Step 2](Documentation/Images/Razer-chroma-freyja-tab.png)
 - Open Task Manager. Look for the Haptic Service background process and check if it is active. Close if it is active.
 ![Haptic Service in Task Manager](Documentation/Images/Haptic_Service_End_Process.jpg)
-- Open the Synesthesia app downloaded from https://github.com/Interhaptics/RazerSensa_DevKit and test the setup with WYVRNFakeClient and the following commands load; active; play which will appear when starting the app. 
+- Open the Synesthesia app downloaded from https://github.com/WYVRNOfficial/RazerSensa_DevKit and test the setup with WYVRNFakeClient and the following commands load; active; play which will appear when starting the app. 
 - Troubleshooting tip: If the console doesn't receive events which should appear, press Enter in the console to restart (this will cause releasing the buffer of events not sent). Known issue in console version; not present in the HapticService component (non-console).
 
 ##### 2.1.2 Test Haptics with Chroma Sensa integrated games (Case: Hogwarts Legacy / Marvel Rivals)
