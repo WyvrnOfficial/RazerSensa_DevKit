@@ -160,25 +160,21 @@ HapticService.exe enabledashboard
 
 ![Enabling the Haptic Service Dashboard](Documentation/Images/Haptic_Service_Dashboard_Enable.png)
 
-To disable it:
+Restart the Haptic Service so the change takes effect:
+
+```
+HapticService.exe restart
+```
+
+Then open **http://localhost:8787**. To disable it:
 
 ```
 HapticService.exe disabledashboard
 ```
 
-Then open **http://localhost:8787**. It binds to `127.0.0.1` only and cannot be reached from other machines.
+The dashboard binds to `127.0.0.1` only and cannot be reached from other machines.
 
-<<<<<<< Updated upstream
-- Open Razer Synapse 4. Go to the Razer Freyja/Kraken V4 Pro tab and press the Launch Sensa HD Haptics Button. Check that Haptic Source is Sensa HD Games. If it is Audio-to-Haptics switch it to Sensa HD Games.
-![Freyja Step 1](Documentation/Images/Razer-synapse-freyja-tab.png)
-![Freyja Step 2](Documentation/Images/Razer-chroma-freyja-tab.png)
-- Open Task Manager. Look for the Haptic Service background process and check if it is active. Close if it is active.
-![Haptic Service in Task Manager](Documentation/Images/Haptic_Service_End_Process.jpg)
-- Open the Synesthesia app downloaded from https://github.com/WYVRNOfficial/RazerSensa_DevKit and test the setup with WYVRNFakeClient and the following commands load; active; play which will appear when starting the app. 
-- Troubleshooting tip: If the console doesn't receive events which should appear, press Enter in the console to restart (this will cause releasing the buffer of events not sent). Known issue in console version; not present in the HapticService component (non-console).
-=======
-**Custom port (optional):** create `debug.flag` next to `HapticService.exe` with one line, `port=<1-65535>`, then restart the service.
->>>>>>> Stashed changes
+**Custom port (optional):** create `debug.flag` next to `HapticService.exe` with one line, `port=<1-65535>`, then restart the service with `HapticService.exe restart`.
 
 ### Layout
 
@@ -250,7 +246,7 @@ Press Enter or **Send**. The status label confirms success or shows the service'
 
 | Symptom | Likely cause / what to try |
 |---|---|
-| Dashboard won't load at `localhost:8787` | Not enabled, or `debug.flag` overrides the port. Run `HapticService.exe enabledashboard` elevated and recheck. |
+| Dashboard won't load at `localhost:8787` | Not enabled, or `debug.flag` overrides the port. Run `HapticService.exe enabledashboard` elevated, then `HapticService.exe restart`, and recheck. |
 | Header shows *Reconnecting…* | Service stopped or restarting. If it persists, check HapticService in `services.msc`. |
 | Tables show *Loading…* / *Failed to fetch* | A poll timed out; usually recovers on the next refresh. |
 | Volume sliders snap back | Another client or the service changed the value; the live value wins. |
