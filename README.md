@@ -7,7 +7,8 @@ The Razer Sensa DevKit lets you integrate and test Sensa HD Haptics in your game
 2. [Hardware and Driver Setup](#hardware-and-driver-setup)
     1. [Razer Synapse 4](#razer-synapse-4)
     2. [Razer Freyja](#razer-freyja)
-    3. [Razer Wolverine V3 Pro](#razer-wolverine-v3-pro)
+    3. [Razer Kraken V4 Pro](#razer-kraken-v4-pro)
+    4. [Razer Wolverine V3 Pro](#razer-wolverine-v3-pro)
 3. [WYVRN SDK Integration](#wyvrn-sdk-integration)
     1. [How It Works](#how-it-works)
     2. [Haptic Folder Deployment](#haptic-folder-deployment)
@@ -63,6 +64,13 @@ The Razer Sensa DevKit lets you integrate and test Sensa HD Haptics in your game
 | Source | USB dongle (green) or Bluetooth (blue, not supported at this stage). |
 
 If the light blinks green, move the dongle to another USB port. If it is blue (blinking or solid) the device is in Bluetooth mode. Press **Source** to switch back to the 2.4 GHz USB dongle.
+
+### Razer Kraken V4 Pro
+
+The Kraken V4 Pro must run the latest firmware for the mixer that combines Audio-to-Haptics (A2H) with Sensa mode to work.
+
+- **Razer Kraken V4 Pro (retail, with OLED Control Hub / base station):** update with the official [Razer Kraken V4 Pro Firmware Updater | RZ04-0516](https://mysupport.razer.com/app/answers/detail/a_id/14927) and follow the instructions on that page.
+- **Razer Kraken V4 Pro Devkit Edition (without base station):** the public updater does not apply. Request the firmware updater from the WYVRN team on [Discord](https://discord.gg/RGrvJWV7Wm).
 
 ### Razer Wolverine V3 Pro
 
