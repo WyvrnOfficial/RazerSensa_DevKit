@@ -14,7 +14,9 @@ The Razer Sensa DevKit lets you integrate and test Sensa HD Haptics in your game
     3. [Sample and Reference Content](#sample-and-reference-content)
     4. [Testing In-Game](#testing-in-game)
 4. [Showcase Games (Hogwarts Legacy / Marvel Rivals)](#showcase-games)
-5. [Haptic Service Dashboard (Debugging)](#haptic-service-dashboard-debugging)
+5. [Debugging](#debugging)
+    1. [Haptic Service Dashboard](#haptic-service-dashboard-debugging)
+    2. [Synesthesia Console](#synesthesia-console)
 6. [Tech Demo](#tech-demo)
 
 ---
@@ -29,6 +31,8 @@ The Razer Sensa DevKit lets you integrate and test Sensa HD Haptics in your game
 - Drivers: Razer Synapse 4 (`Drivers/`)
 - Content:
   - `Apps/Synesthesia/HapticFolders`: example and reference haptic folders (see [Sample and Reference Content](#sample-and-reference-content))
+  - `Apps/Synesthesia/ReleaseConsole`: Synesthesia console app for testing and QA (see [Synesthesia Console](#synesthesia-console))
+  - `Apps/Synesthesia/WYVRNFakeClient`: test client that sends commands to the Synesthesia console without a game
   - `Apps/TechDemo`: Sensa tech demo
 
 ## Hardware and Driver Setup
@@ -111,7 +115,7 @@ Current versions are in `C:\Program Files (x86)\Interhaptics\HapticFolders` when
 2. Enable your game in the Chroma Apps list.
 3. Deploy its haptic folder as described above.
 4. Launch the game and trigger the events.
-5. Use the [Haptic Service Dashboard](#haptic-service-dashboard-debugging) to confirm that events arrive, effects play and the devices are detected.
+5. Use the [Haptic Service Dashboard](#haptic-service-dashboard-debugging) or the [Synesthesia Console](#synesthesia-console) to confirm that events arrive, effects play and the devices are detected.
 
 For ready-made reference games, see [Showcase Games](#showcase-games).
 
@@ -129,7 +133,7 @@ Test Sensa haptics with Chroma Sensa integrated games. The steps below use Hogwa
 
 5. Launch the game.
 
-To watch the haptic events as they are played, enable the [Haptic Service Dashboard](#haptic-service-dashboard-debugging) and keep the **Event Log** and **Events** tabs open while you play. To try a custom haptic folder, copy it to `C:\Program Files (x86)\Interhaptics\HapticFolders\<App Title>\` (see [Haptic Folder Deployment](#haptic-folder-deployment)) and restart the Haptic Mixer from the dashboard before launching the game.
+To watch the haptic events as they are played, enable the [Haptic Service Dashboard](#haptic-service-dashboard-debugging) and keep the **Event Log** and **Events** tabs open while you play, or run the [Synesthesia Console](#synesthesia-console), which prints every command it receives. To try a custom haptic folder, copy it to `C:\Program Files (x86)\Interhaptics\HapticFolders\<App Title>\` (see [Haptic Folder Deployment](#haptic-folder-deployment)) and restart the Haptic Mixer from the dashboard before launching the game.
 
 ### Hogwarts Legacy save file
 
@@ -144,13 +148,24 @@ Haptics are implemented on all of the game's events. If you have not played Hogw
 4. Duplicate all the folders at that location (labeled with numbers) as a backup.
 5. Delete the content of the original folder, then unpack `HogwartsLegacySaveGame.zip` into the now empty folder.
 
-## Haptic Service Dashboard (Debugging)
+## Debugging <a name="debugging"></a>
+
+There are two ways to see what the haptic engine receives from your game. Both use the same haptic folders and configuration, so use whichever suits your setup:
+
+| | Haptic Service Dashboard | Synesthesia Console |
+|---|---|---|
+| What it is | Web dashboard built into the production Haptic Service | Standalone console version of the engine (`Apps/Synesthesia/ReleaseConsole`) |
+| Runs alongside the Haptic Service | Yes, it is part of it | No, the Haptic Service must be stopped first |
+| Shows | Live service logs, loaded games and events, programs, devices, volumes | Every command received (`load`, `play`, `unload`) |
+| Test without a game | Send Command box | `WyvrnFakeClient.exe` |
+
+### Haptic Service Dashboard <a name="haptic-service-dashboard-debugging"></a>
 
 The Haptic Service Dashboard is a built-in local web interface for monitoring and controlling the Haptic Service at runtime. It shows which programs are producing haptic output, which devices are connected, lets you adjust volumes, trigger events manually, and watch service logs live.
 
 > **Diagnostic tool only.** Do not ship the dashboard or this section to end users.
 
-### Enabling the Dashboard
+#### Enabling the Dashboard
 
 From an **elevated** command prompt, in the folder containing `HapticService.exe` (`C:\Program Files (x86)\Interhaptics\HapticService`):
 
@@ -176,7 +191,7 @@ The dashboard binds to `127.0.0.1` only and cannot be reached from other machine
 
 **Custom port (optional):** create `debug.flag` next to `HapticService.exe` with one line, `port=<1-65535>`, then restart the service with `HapticService.exe restart`.
 
-### Layout
+#### Layout
 
 - **Header:** connection status (Live / Connecting… / Reconnecting…).
 - **Control bar:** start/stop/restart actions.
@@ -191,7 +206,7 @@ Tables refresh every two seconds while visible.
 | Event engine | **Start / Stop** the event-driven haptic rendering. |
 | Logs | **Enable / Disable** verbose logging without a restart. |
 
-### Event Log Tab
+#### Event Log Tab
 
 A live, filterable stream of everything the service logs. This is the first place to look when your events don't play.
 
@@ -206,13 +221,13 @@ A live, filterable stream of everything the service logs. This is the first plac
 
 The view keeps the 500 newest rows; the service keeps 5,000 and replays them when the dashboard reconnects.
 
-### Haptic Mixer Tab
+#### Haptic Mixer Tab
 
 - **Type volumes (0-100 %):** master sliders for *Audio to Haptics*, *Events* (haptics triggered by game events) and *Native* (titles integrating directly with the WYVRN SDK).
 - **Programs:** one row per program producing haptic commands: name, PID, status (ACTIVE = foreground, IDLE otherwise), mute toggle, per-program volume and **Last Buffer** (how long ago it last submitted). Use Last Buffer to tell whether a program is silent because it is muted or because it stopped sending.
 - **Devices:** detected haptic devices with name, ID, per-device volume and a **Report** button showing the full device report (JSON), useful for support.
 
-### Events Tab
+#### Events Tab
 
 Labelled **Synesthesia** in the dashboard.
 
@@ -242,7 +257,7 @@ A showcase game does not need to be running to test its events. The example belo
 
 Press Enter or **Send**. The status label confirms success or shows the service's error. This is the quickest way to check that an event in your `Wyvrn.config` is wired to the right effect.
 
-### Troubleshooting
+#### Troubleshooting
 
 | Symptom | Likely cause / what to try |
 |---|---|
@@ -254,11 +269,42 @@ Press Enter or **Send**. The status label confirms success or shows the service'
 | Device missing from Devices table | Check it is connected and powered, then restart the Haptic Mixer. If still missing, export the log and file a support ticket. |
 | Game event does nothing | Check the game is enabled in Chroma Apps, its folder is in `HapticFolders\<App Title>\`, the event appears in the Events tab, and the Event Log shows no WARN/ERROR for it. Try the event via Send Command. |
 
-### Security Notes
+#### Security Notes
 
 - The dashboard listens on loopback only (127.0.0.1) by design.
 - Do not expose it through a reverse proxy, VPN or tunnel on production installs.
 - Disable it on production machines where it is not actively needed.
+
+### Synesthesia Console <a name="synesthesia-console"></a>
+
+The Synesthesia engine connects WYVRN enabled games to Razer Chroma RGB and Sensa haptic devices, playing haptic feedback for in-game events. In production it runs inside Razer Synapse / Chroma as the **Haptic Service** background service.
+
+The DevKit also provides a **console version** of Synesthesia for testing and QA (`Apps/Synesthesia/ReleaseConsole/SynesthesiaServer.exe`). It plays the haptics like the Haptic Service and prints every command it receives, such as `load`, `play` and `unload`, so you can check which events your game sends. The haptic configuration format is documented at [WYVRN Haptics Configuration](https://doc.wyvrn.com/docs/wyvrn-sdk/wyvrn-configuration/haptics/).
+
+The console reads the haptic folders from `C:\Program Files (x86)\Interhaptics\HapticFolders`, the same location as the Haptic Service. Example folders are also in `Apps/Synesthesia/HapticFolders`.
+
+#### Running the Console
+
+The console and the Haptic Service cannot run at the same time.
+
+1. Open Razer Synapse 4, go to the Razer Freyja / Kraken V4 Pro tab, press **Launch Sensa HD Haptics** and check that **Haptic Source** is **Sensa HD Games** (not Audio-to-Haptics).
+
+![Freyja Step 1](Documentation/Images/Razer-synapse-freyja-tab.png)
+![Freyja Step 2](Documentation/Images/Razer-chroma-freyja-tab.png)
+
+2. Open Task Manager, find the **Haptic Service** background process and end it if it is running.
+
+![Haptic Service in Task Manager](Documentation/Images/Haptic_Service_End_Process.jpg)
+
+3. Start `Apps/Synesthesia/ReleaseConsole/SynesthesiaServer.exe`.
+4. Test the setup with `Apps/Synesthesia/WYVRNFakeClient/WyvrnFakeClient.exe`, which sends test commands (listed in `ChromaFakeClientData.txt`) without a game. The commands, for example `load` and `play`, appear in the console.
+5. Launch a WYVRN enabled game. Its commands appear in the console as they are received. The example below shows Hogwarts Legacy.
+
+![Synesthesia console with Hogwarts Legacy events](Documentation/Images/SynesthesiaHogwarts.png)
+
+When you are done, close the console and restart your PC (or restart the Haptic Service) to return to the production Haptic Service.
+
+**Troubleshooting:** if the console stops showing events that should appear, press **Enter** in the console to restart it. This releases the buffer of events that were not sent. This is a known issue of the console version only; the Haptic Service is not affected.
 
 ## Tech Demo
 
